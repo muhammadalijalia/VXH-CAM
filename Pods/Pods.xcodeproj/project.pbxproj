@@ -1,0 +1,1830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013D71E269AD4C646A8F8168A4A8100D /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E245DCB47FA0AE9D91053C074A2A7BB /* Data Conversion.swift */; };
+		01E98886C17822A0CBA41BB04C921B19 /* XChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885FF6D6B4F0342E4B8748B0411DDC2D /* XChaCha20.swift */; };
+		01F1F6243026C23F6FEF7A0B8B502F98 /* ISO10126Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C188A1E80CBEBDBD3B0B6895BD8A34 /* ISO10126Padding.swift */; };
+		02C6AD8184FAE4D8C125505245567903 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387A9BD0B1F01579975A5687488E5BA /* Integer Conversion.swift */; };
+		031CF6A420C505659AE6A551DB08899A /* DER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFC00BACC12C791EE608A4ED23EBD5 /* DER.swift */; };
+		0402BF70BA0A2F0FF76708453061E678 /* DGActivityIndicatorBallRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F128001180F539975CF18FF652C412 /* DGActivityIndicatorBallRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05CC6B7519CB7EAD9E9C377B5EE035C6 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A36DEAB7EC32C157E3105815645F5 /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		07150C071261E24559DBA4249F783902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		07572AF1CC47625A93A6D9DA810E7E89 /* PKCS1v15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B3CA91B16CBACE2F080E674A23D42 /* PKCS1v15.swift */; };
+		0A89F3C6169BB4CC1ED4D855C73C0E55 /* GCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32454B886B816F7485D7A0614A2C8916 /* GCM.swift */; };
+		0AA1EE703DB7E681EE999EEC3C51E3C1 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE6E0A4E9B8F239E9593CAE2EF29B6 /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
+		0AE3B5F3607C92BD8580682611F81184 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E433007F1AACB53DCFF535939DA702 /* HMAC.swift */; };
+		0C9FC533C9F82D8E45F2F727BBB8B507 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D61F9A94DAAAD230EE3A0BF443EBD09D /* DGActivityIndicatorRotatingTrigonAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBCE606D2B0A7AFDA99211D66BF9E06 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F614AA62522206FE45D25ADC54C7201F /* CryptoSwift-dummy.m */; };
+		0DBFC980936B2EF810DF12B711B1C0EC /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60D0CE5A6422DD20230E749D1454C9 /* Rabbit+Foundation.swift */; };
+		0F18C935794EB4F08B9397FBD00D85B7 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C55191FB45D8068845C4D25E5264A /* Generics.swift */; };
+		127C7419A941BDE6E8F96B05DA087B10 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BC9C0D5B3F2FA600A3442CE32A95E /* Cipher.swift */; };
+		155EBE4DCD46E9079E1029B705A88961 /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072BD3C0C73B525B23126F4E7ED57DF /* OFB.swift */; };
+		166118E48E01931A3330E9C6719E1B12 /* XChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668546982295DED3869CAD01B5306369 /* XChaCha20+Foundation.swift */; };
+		17AC11C4B18E2B624AA2AD0936741355 /* DGActivityIndicatorNineDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F79E81AD10318B9003C6A4ED4BE2AEEB /* DGActivityIndicatorNineDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A1E4AD7DF3F03923630512919F6565 /* StreamDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE131F5BC5573E54EB70510B2AADA69F /* StreamDecryptor.swift */; };
+		1B7B9F6608A9195ED025E5F2AB6F9131 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F700D095B02E20E765F3BD49E329F /* Subtraction.swift */; };
+		1BA47182C38A742BDB7240D619C0993D /* DGActivityIndicatorBallZigZagAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D6029CB9FDDB8BD5AED92F8ECB9C9A /* DGActivityIndicatorBallZigZagAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F85E1941E39E65DE31FB2AD93FEFC8 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4833D2DB66A0B2B09B207B7791152C /* BlockModeOptions.swift */; };
+		223439CA5C844FDE826B04540265A98A /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E868A13529462434EE04D415103CE4 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
+		226C6D8E8FD4DAB7DD12E09DBD9EA5BD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */; };
+		22B6C73D997EE48D48ED2E8D401D08CA /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E50A26B6F51D49C53F351579D746D7 /* ASN1.swift */; };
+		230AE3B60889CEC4EA4A178703D7EEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		2316F7ADCAD7F99AF2E8F965D9B48112 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E61E15161D7933460D77E784570398 /* Authenticator.swift */; };
+		2446BEC6A0B232D322605B2926EAABE4 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92466010336BED4116A3AAD0EA9EBD /* Signature.swift */; };
+		25DF005153C6EA3B18CE80C3AA24F7D5 /* StreamEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB025922D74F8E901547C00EB14BF3 /* StreamEncryptor.swift */; };
+		27D39B021D3F4EFEECFC913519CE9839 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB7D2F2436D2B6CD69A84956A3DB0A /* Utils.swift */; };
+		2BFAB5FFCFCCC7F848E168DF44655B30 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8E6335936207E74066FC8BB68043B /* Exponentiation.swift */; };
+		2CA444BE2243169E3E461333620BF9A5 /* BlockDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755BC682D329E9E295F5B8E55623C54 /* BlockDecryptor.swift */; };
+		2E99D4B65EC3A42A50A5185B20B4E114 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CC7628BBBA7751FA5ED00CE9B9BE87 /* DGActivityIndicatorTwoDotsAnimation.m */; };
+		2FFC71AC9333E3834E9C9AFAEB8BFA2E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 727016D02359CE8BF9CA6CCF01CF9D6B /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3078AD695279E30AAE8E94CD3FC921AB /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178081D5FA2AF4D603C53832CB8C109 /* Blowfish.swift */; };
+		3359A8ECA009F3C30EBA264BF30CB886 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0DD436A689F483F92E51BB9AF9F7FE /* DGActivityIndicatorTripleRingsAnimation.m */; };
+		351ADF89D2883C87D62E344A12DC8E1A /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 215F5D5DEC5CF4863DB132F0B8A8A355 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		357B3CCD5BD7C6F64F3426D06E0F58F8 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3540A4DBB0CDAF3B3043F9BEE461ED /* CompactMap.swift */; };
+		3986AE02311B002D77F34137176CEC9B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */; };
+		3A34CA4D2D9A26C1CD97D00B73024E32 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8438DE152960957C5B819CE497BC0D3 /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
+		3B75E7F419EB60BFC08ACA064B29665B /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D21B0DE78AED73FA8E1037A1FF7133 /* CFB.swift */; };
+		3C100CB3940731FCC812ED9F40744CC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		3D2294BDA65FCC1384DD1F595FE5809D /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03CABFF13287C62B67B0724361471FB /* ChaCha20.swift */; };
+		3EC96C4E5D4A931B41023E49573E03D7 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC9D350F02AF3662694355598DC53F /* Random.swift */; };
+		420DC3450BB2986FB26DF8314F4BD5CB /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFBFFDA7ABFE1C6A8ADFEBFE593983 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		438639DA7344CA5281D780F431AFF16D /* DGActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1CC60D1B15052831C0B24525E0C00 /* DGActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DF3D55298E7BF5AA3019E2FAC4CB4A /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50CA73CBDC45CD040B84FD4B6CCA70 /* DGActivityIndicatorBallGridPulseAnimation.m */; };
+		4563AC32CBBBB8F00A325F5972DDD813 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92059EF52E161DEE348E51A4A08D1EAB /* Addition.swift */; };
+		4668131BF645E9A3ADD276772934A6B1 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 179A295C6019B6FD703E56CF682B2F19 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
+		473CA5C436637E74378110E19B70F53B /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B841CA5A9B92FFBB510C963E96398DFE /* DGActivityIndicatorBallGridBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A8FE9A5CB52467D3856F85CD32BA2C /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53ED145BD3779921475DB3EB8FE0124 /* BlockCipher.swift */; };
+		4883B3C8CA095D78D6D20BA700331326 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C00D592D567A27E46E50C7FCB7FAE56 /* DGActivityIndicatorLineScaleAnimation.m */; };
+		4931B72AE0DEA03D974E94246D083C56 /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA062A944570CE2311E34A6329C3BE /* CTR.swift */; };
+		4AEF4F37390751212A195284BF92F4CE /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E265EA3E46FB35D438D2DB48C956542 /* SHA3.swift */; };
+		4B2B5838550071AC9FDC20F1C4F7674C /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2ABF69AF2DE14F540560E3F126C6E /* DGActivityIndicatorView.m */; };
+		4CE0101DCBDBF84D5ED48EAAE244EAAD /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1BC20CCA5A1944FE92325190C6C09B /* DGActivityIndicatorLineScalePartyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E93597DCD975C6BDCDE88E557EB3646 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C32060709FB7041FABAD2D4FF4EE19 /* DGActivityIndicatorBallScaleRippleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F66AABA6EE3E4FE5F232C3E9C5506E0 /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34719389F8D36569A57ACC999246EE /* UInt64+Extension.swift */; };
+		50F2582568898704B929B5406821EB7D /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A873CD4916CFC5394F04785208FA0A6 /* DigestType.swift */; };
+		520B0426743972060FDF743F2CCA7E92 /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B804E3A71629ED2015B99A30EFD2042 /* RSA.swift */; };
+		552917EF5EED34DDF54DED797945151A /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECD90ABA2A68C920AA6BEBDE9A31BA3 /* ECB.swift */; };
+		563579356C820DB88BB163B7A9E033B7 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1247D1CF8D086DAD8C0A868B408EFDF /* BatchedCollection.swift */; };
+		56748317E57B19600134D4E03F4ED003 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72E58049CF7FA24871DC82F98CD1C2D /* BigUInt.swift */; };
+		579F111BD49D8DA9314E634FF33CD260 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9465234466A66BD28C1B40CDAE538FF5 /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
+		57A386CD0A6177239ECED6FE18762C02 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0947174BD6FAD553F62A0D21C4F7FFE /* AES.swift */; };
+		57B930B3305D6EE09C1A5F67F85ABACD /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 153BFAA5A6AB6B015AAF6EB1BA584258 /* DGActivityIndicatorThreeDotsAnimation.m */; };
+		58BE2232589C5463FBE7FA3E4A2A1ECC /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F49201743D960DE3416C7981758279 /* DGActivityIndicatorRotatingSandglassAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5936DAE658ADBE20DDE0186CB59D92FA /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6650F003D90766693359DD8939F519D4 /* Shifts.swift */; };
+		5AA1472BD922969E2E69A67310FF4B2D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7418E1F0A0DB574E1C9E4C7F1C2D3A31 /* PrivacyInfo.xcprivacy */; };
+		5B4C596A725418E620B72C6C337992EA /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE85408FDB49E462104F160C8ECD34 /* MD5.swift */; };
+		5E38CC49F1D6986A28295B6D6696D685 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9D396B361FC5B600CB26FB18014FD /* Int+Extension.swift */; };
+		5ED5A4B1C336D008E591A4AFF88EC9E0 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B125DCFF4899E871CC4D1851DA08C2 /* BlockMode.swift */; };
+		5F6717AD253575448A5327E313843BF9 /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69117AA1AEDD726E9E5833FBD1B7BFF3 /* DGActivityIndicatorBallRotateAnimation.m */; };
+		5FD4AF079B3A3128E245802963B38511 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFD123119A3D025A3640B52FD50ABF2 /* DGActivityIndicatorBallScaleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		604093E69BA594BB6D54246124CEC4CB /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E06236C8F555D1891EDB7970B10B967E /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E4088BCB82C47E27135C28E1F9EDE3 /* CipherModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DF09A47520D2C041DCB29EF23B4B13 /* CipherModeWorker.swift */; };
+		643CF4761EF1E7A40EED51D16C3CE738 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6E3D974C0746E3033F95561F15FFD /* SHA1.swift */; };
+		657AA52B863E291D0AE10B89EDC4CA4C /* DGActivityIndicatorTripleRingsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C46774ED072C19806E2D07573151E6F5 /* DGActivityIndicatorTripleRingsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6817D6A85B3129CB25D253B17E6C5B49 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6A1DF1D9DA2CC02BA280014E9193 /* UInt16+Extension.swift */; };
+		6B9D88645C3FAC424A589A323EECC5BD /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8FCB49DADE014D7A7E329BEBC6F76 /* CBC.swift */; };
+		6D975A01F1F5683F9D736EA61C75EF9B /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF040B4604CFFE5C86D152116029D66 /* Prime Test.swift */; };
+		719C95F442B007124C2D454868FE1FED /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41153F65694476CFC3A71DD8BC0CF8A5 /* DGActivityIndicatorBallZigZagAnimation.m */; };
+		7389687A3178AE6163AC83257BC539E8 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF199F13FADB8AE2FD21845FB985B66A /* SecureBytes.swift */; };
+		7412A0EA435767AA1811EDA0308A12A7 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631662CB3BAEC9A80287E698DE3630B7 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77635EFA197C0C1160C459C181F84EDA /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397531B44202BC0B38A47140D5A515C /* Poly1305.swift */; };
+		783A1CB677AAE2F4F618B4E6BF186D11 /* CCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792153B552148C28FE27365A0ED7CC3A /* CCM.swift */; };
+		78942FDAAE696DD53C00BC0489FEB760 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C9E923C73DE9A889A4F44CC79CF9F1 /* DGActivityIndicatorRotatingSquaresAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BA47E63F96CB46C844137999948F16 /* DGActivityIndicatorBallPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F064598134A3E8C1A1C4F3D050D5CB /* DGActivityIndicatorBallPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F342DA4C3ABD2FA492A8E8C68DA6A6 /* ASN1Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463E61394D0DEA3C48384572275E1E4 /* ASN1Scanner.swift */; };
+		7C116F62A94C9B64AD5ED39F5A0E6CE8 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB74189F9A2A7BC0A1E48779D764D590 /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
+		7CEAA747A522A1E790AE3DCA601687D3 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C2F09323F25AB2EA8C28807CF46F1A /* DGActivityIndicatorBallClipRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4F7D09B7F664BCFE4B7E6C2C5188BE /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FB897A7A94302FE0F4BDA98A30EA9 /* Words and Bits.swift */; };
+		7F27C851A4AAB8451EE4E0BC68561A74 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1725E3728348B4FE57381620B8AE8 /* DGActivityIndicatorBallScaleAnimation.m */; };
+		8097CC04E364423C5E408372D1009B4B /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74316285906AE712F36C66C3BA348C0 /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
+		823C189129B6093DAD0F230C22911629 /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5727906446D5D874B504380E5636F4F /* AES+Foundation.swift */; };
+		82BE2A242C850203ECDD4ECBC98B313C /* DGActivityIndicatorLineScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F4508E2F9FE0CCAE4F596B4791927F /* DGActivityIndicatorLineScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871719FCEC37AEF97B13647BCEF4BEE1 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6179D99E456AD86BD2A55830DB7A463 /* DGActivityIndicatorThreeDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A4F192B1AF653E08636B000539B9BB /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7473D71E6A3FABC79FEC01CA20438E7 /* NoPadding.swift */; };
+		89D1160E2D1D13D0C23811AFD85A7649 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE7C4ACDEB48DB2FBBF2E480F4A1B3 /* Division.swift */; };
+		8A7F80041B3C2E9B1E07339997140D8A /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69749087A3E8B9F8B351CC2790A574F2 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		8A9B20D7A812D2BCAE359D65867B793D /* ASN1Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D6D5571CF9A476E2C73D6CAC40D99 /* ASN1Decoder.swift */; };
+		8B1D3DC9B1F8CE1F1BB54814C656144F /* Pods-VXH-CAM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A709F53B18A0D762725529AC9DA4433 /* Pods-VXH-CAM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C71F50F54CFE8E7280229DE33529112 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF8EEDF027BE8935CE82D57574C31C1 /* BigInt.swift */; };
+		8C79DDECCDDC7F02F911BAE72E10AE59 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAE452B71C66F0B8855962F6873D27 /* PCBC.swift */; };
+		8C94EA7AAB8BE0F8C4D3641A20F7F81D /* CBCMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B9CD19152C2B43947E2F9D8E7ADC1 /* CBCMAC.swift */; };
+		8CC854CFE2456824703B800DE2DC77BC /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 957FBB298EB02825BE63C029D121A320 /* DGActivityIndicatorBallGridPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D78A5A38855E51B6522085783196B4F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F477F07046195EEF035C3CA69AE84F /* Data+Extension.swift */; };
+		8DE499372DC8C828EE7106C6F776904D /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0276B7F15C2F81B40B34B3087D093 /* Strideable.swift */; };
+		927F84BF8CF45F9F1A126769FCE8A322 /* CMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7237F08D93EE3FD174C7A5486E4F4C /* CMAC.swift */; };
+		93ECEE2E728FA09FF7E7BCFB3CFDE649 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B518E0BE53DEA0CDAAD298E18FF0D4 /* DGActivityIndicatorDoubleBounceAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9550FC6D8312A414C4775B7AECC52722 /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC182A2A3AE554E83CD000C53B2DE153 /* Blowfish+Foundation.swift */; };
+		9551F056CD5286C9BC44EB8F97CC4459 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44357D0DDFED8E90A93BA18E0F16F01A /* DGActivityIndicatorLineScalePartyAnimation.m */; };
+		962ACA5D6BBC942E293341E80006E2DD /* DGActivityIndicatorBallScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C727CC391BF8A363E0533ADA3DE18559 /* DGActivityIndicatorBallScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C799625107ECCD5519901757F2305D /* ASN1Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1F22B826CFA63CA2D462F0BC9A109 /* ASN1Encoder.swift */; };
+		98DD3D34EE5E9B30F765FD21F8315F63 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE88A827C65EF6D25F8B4655DD2A54 /* GCD.swift */; };
+		99731D291CE87315D7C6A531AFD0B3D7 /* RSA+Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29C8A16797D929D17902C4C3D4F323 /* RSA+Signature.swift */; };
+		9B780F05ED676106AF56FDB26EF101DC /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E3FA1E2F694020E8CF2BF97301F5C /* DGActivityIndicatorBallClipRotateAnimation.m */; };
+		9E2363D68EF1AD3A2B5527F48F515AE2 /* AES.Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE739C644DAEA47F630FEC5B30E20FFC /* AES.Cryptors.swift */; };
+		9F0AB86083F313398966D8EA0E59A58B /* AEADXChaCha20Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA1B33468C2C020114E4BA134CDB50 /* AEADXChaCha20Poly1305.swift */; };
+		9F39312E9BCDE93584A058B4B44E8B1A /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6590557A0E40DB4C52A6F999213E10A /* ChaCha20+Foundation.swift */; };
+		A0B008D041B67526EA10E48460038A4D /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B28FB284C32A0435F8366E534EF9340 /* PKCS7.swift */; };
+		A31D59E669050FAFF95964EBE8A25C06 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4363BC435047ADB66486A213FFD502C3 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3566168CD74321FD4D771CCC3B85466 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A090E322901BE6AF91DC47A05DE79 /* Scrypt.swift */; };
+		A39BDBC0A26CEAEAAC522491E31D155B /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487BAF36C20F7387E597A8B05A44F88 /* Collection+Extension.swift */; };
+		A420A924F25DA38A9A8206BD4345B088 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCF7F15C8663DA5FE06E81E0104BA1 /* UInt32+Extension.swift */; };
+		A4F7F39C7CAF8D496AD5440F29AC3A26 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC8D05760B2296F1CABE8E9E755BB8C /* Cryptor.swift */; };
+		A57C68291FDAF2CA27EA957D22F371D6 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6207982F1910BBEF50327368DA267329 /* String+FoundationExtension.swift */; };
+		A8BF668A692EB10C3F69F1A84E624E52 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CA973CE4624D4C05ABF419F7504F69 /* DGActivityIndicatorBallTrianglePathAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A984CADB78176B9C28B05F3DFB2732FF /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1EA6764FFA367F19D06B95BECCB41 /* HKDF.swift */; };
+		AC11C04DE2CBA58C11677140F9930068 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804267ABBAB18DDCA06088BA75EA2AF /* Updatable.swift */; };
+		AC24CC437FA669E5F31E0C9723AD8415 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3FE8535AA6A737E5D73361DE576A9C /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8C9985FE2D70EBC0FC362BF65E01FC /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FA7B7A4EDC1832684BE140E8E6B730 /* DGActivityIndicatorBallSpinFadeLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE63ABED28BE0A6C9151F3FCFAD079A4 /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 860E32548D09DC3FF21223AAB9FCFE49 /* DGActivityIndicatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEEC32E3CE7B1A3936ED9193B9E881D0 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9FAD8FEF75E10A3EFB8BB35BE4943 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		AF93CCB3F715B0D8BC33200095E15A93 /* OCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B5CABD376746F29E1418CFC72D6BC /* OCB.swift */; };
+		B02E65467861DC3FED4FBAD24C9A0DC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C61683DC60FAB10C26A7AEAC342CAEB /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		B0CA3E5D4F2DB2D6A73993F25D1003CA /* RSA+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E20217F6E07006AB5A78D90D08DA70 /* RSA+Cipher.swift */; };
+		B23C7BC50E6F695D42E2B0F48C910A03 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A40E004A21EB88A07322BBA36EDEA67 /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
+		B4D8B52F72B599EBB187BC51AE9AE8A3 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E957090DE7CD7270D06D8243622E4324 /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
+		B55670286D8F3F7555B1F7C404846107 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35774449EF4AB45635025EB7B2D51066 /* Digest.swift */; };
+		B7722A81B52D2FF71A31FA535C9A9C72 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486FCD3A883F2CCFFF2CF6611D0E01 /* PKCS5.swift */; };
+		B98EBEDF5EB7189F6BBB82A1CE217B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		B9A267013059C62B0ED8D1C482D2D56E /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003CD5F5B96B589E6002F9E25C30C3F2 /* Hashable.swift */; };
+		BA2CB79755026CD557C60B55166600B9 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAEE481E67DF49E39AD8CDD91AB0BF2 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2B43633E441EF5BD764F699BD8CF1E /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA652E8F68D23EA6A37678DF1A855A8 /* Bit.swift */; };
+		BC99A91AD479349B558EA916A67195C7 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0874593FFC4FA3BA74509E0C4586C177 /* DGActivityIndicatorTwoDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9C7714723FE6EA2E5B69F6D04A53E8 /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951845DB34CB2D0608EE2D9340CB0DEC /* Array+Foundation.swift */; };
+		C57EED78F93D0248C7B9D49A442EC5CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */; };
+		C5C877661AC1F20CE497B66D1D898924 /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F55BD872972FE165819F6AAA4FA13 /* DGActivityIndicatorAnimation.m */; };
+		C6A3DA65C2AA19FF969E6D6729FC5202 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4E2DDD9557C6362BEC1F9487A709F8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C812806D8D9B75FC20775026AD645402 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8934F08B6E14AC000B0753DA9D34552 /* Comparable.swift */; };
+		C8474E4A125DA5044994B5FC6F858F87 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3919356AC6441BD2635CF4F927B48BA /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		C96588F567A65EC852BD1619CC32A255 /* ISO78164Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6846784A0D585540C9AFB12E12979E /* ISO78164Padding.swift */; };
+		CA859AED54CE35671B1A0202FA87297A /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C48C47CE25D5558559ED8C43275555D9 /* DGActivityIndicatorCookieTerminatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACD12F55B17F9667D0656C99FEEFA21 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B760E69448868D86E6255520801591E /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF1075C8D6AEA3BE6649A9199E9EB73 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D23DA784FF4013BAEA42E2492158CFD /* PBKDF2.swift */; };
+		CCDBF1276438EC7464F10147647B3539 /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FA7F90905B9D17451DF900AA7ADBFD /* UInt8+Extension.swift */; };
+		D10D949773CFA5C6CF18249E4DBDF2E5 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFBC163C9B19A46F506B4F40687993 /* Floating Point Conversion.swift */; };
+		D1993E9C2F219AD5DE8CF081CCB90748 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4FD96C13AEE3B3A84E7B12ADB951F /* ZeroPadding.swift */; };
+		D2050D709F2210694EDA57F593A1ADFD /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6881A298121833E3C75C99BCA8BFB5 /* Codable.swift */; };
+		D27558F1C5BABF690D29BD07AC2D894A /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F25E70099048DF4B6B2CE31547E738 /* DGActivityIndicatorBallGridBeatAnimation.m */; };
+		D368E13DCC61A94DBF0D4C40C029D789 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B41921DF5C9DE7F58DCA81702E7C5 /* PKCS7Padding.swift */; };
+		D4ACECABEB5EECB11B8844A59D45CA0E /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11C7EFD89B7E6AAF35920EDDE49A80 /* Utils+Foundation.swift */; };
+		D5D8262B9ED662F44E0111EC7A57EF31 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04FEAF58AE0AE23C61B50EB8AF9CD7 /* String Conversion.swift */; };
+		D6CA15630B34E3F64924EB7900D7DC79 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BB3F40A123B3AA07384F331D82BDDE /* Array+Extension.swift */; };
+		D9239B8A66749417934B41E2FD754C36 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 416995C0E3DD2DD6D4FCC20796ECC6BA /* DGActivityIndicatorLineScalePulseOutAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA45FF667F74EF7093D5E54D2639F8B8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C3D8220C76B4E16639FD98479C0A4 /* Reachability.swift */; };
+		DA611E11361AFA5E9E36F6F5D285AD48 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F6D015E576471877ED2E3BFF5F6C22 /* Padding.swift */; };
+		DAA8CD05104C4F3724955625DA3534AD /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF3892E721990A383E83A3F29F548 /* DGActivityIndicatorBallBeatAnimation.m */; };
+		DB131BED912426470732DA1FF365CF83 /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C314D7D5396380B5B6057695399F7A22 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC160C3E360EB9853B288E4B034C0B41 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D12450AD6F57628C0CDE2BC4FD9F5 /* HMAC+Foundation.swift */; };
+		DC949216401EE388DF8BF5C75D027591 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8415E7A374D7453BFCF176C428DCE6 /* DGActivityIndicatorBallSpinFadeLoader.m */; };
+		DFFADD84855CB9932C0201A0C8A7CB27 /* Pods-VXH-CAM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CA4E2127D2B765B4B2E02D0CBE77D6 /* Pods-VXH-CAM-dummy.m */; };
+		E0215181EE1C30E76B533D013B36B059 /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF64E222E51231BDE8F0A70F9461302 /* AEAD.swift */; };
+		E158EBB0FADA4968A0A70AC9450D20D4 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9D83BBCD9B5A2DA4FA890B40719CF /* Bitwise Ops.swift */; };
+		E381978224096EBB7F2A6E3F6BF6EEB9 /* CS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4031A2C738EABF205ABF7D5E2AD638D /* CS.swift */; };
+		E49EF5E679D2C6C607190029D02A9CC5 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4AAF78BCA899D4DC44318343B31726 /* Checksum.swift */; };
+		E5948039524C8043DC3875F2C2A893B5 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235258FA2B5F5923B1EF7DF88072BA02 /* Square Root.swift */; };
+		E6663A5C4D1B6B743A28B627C1E779AF /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D3C42F04390D349F0D19D94A7BD1AC /* DGActivityIndicatorBallPulseSyncAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CA9A4C1F8B8127A39C2DD53D70FA69 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E182A2358E696EF079C002025AF0556F /* DGActivityIndicatorBallPulseAnimation.m */; };
+		E8600D13C8187C946E47E4DC2CA8272E /* DGActivityIndicatorBallBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 014CD09BE5342D6FA0235510AD1FB7AD /* DGActivityIndicatorBallBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CB607DD7DE6F9099F254B240029A43 /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD99B33682F8B9E9FFE08B1A53232D03 /* DGActivityIndicatorNineDotsAnimation.m */; };
+		EAB790E9F3F420C6B1390B0EB5967477 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190BBC375D74C86606A61FD86B4F4FF /* String+Extension.swift */; };
+		EB5ECBA300640C5F3A26A14EF517C17A /* DGActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DD63F64921D38940EDA350CB6E5EAE /* DGActivityIndicatorView-dummy.m */; };
+		EB87BEEF3BAF15E7C8698329CF619265 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2B6904ABA723C2504BD641D082E6BD /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1ECADF76682C8F5B611D20E3B91401 /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 019CEA18EA7959CC28635BEA55740C5C /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC38B9171A946AB073AE14EA880C35AA /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE627D7CD62AB4D963C6518D28023CC /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
+		EC6E5EE1B82F30403F93E48694ADAA44 /* BlockEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056301950AE84F47E99F3345E613B2BD /* BlockEncryptor.swift */; };
+		EF1CD83CFDF4B0433BFA10279AA232CF /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8434F7503234B65B85C8D83270952 /* Cryptors.swift */; };
+		EFA606B4A112FCC12C450CB0E805A29A /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969470BB692A1C5BB468B16824DAE46 /* Multiplication.swift */; };
+		F053B15771FE697EBCFDF2DB2D2E4F91 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFAD6D01522D231788041394979204 /* Operators.swift */; };
+		F0923DE8BC44953A4DC4D5A50E5FAEAF /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8B2CC4FC9801816E65FD68CF38B1 /* UInt128.swift */; };
+		F125F7F62E311EEEF149C7996EB377A3 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1382968A1D451E4C8097D432DA49E3 /* SHA2.swift */; };
+		F14DA3D819B00D565C2201277675C9A2 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CB2153387CAF1F6CC5D4DA134D762A /* DGActivityIndicatorTriplePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A71F8A9C47B8F0F42A6485FF84580B /* AEADChaCha20Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86587AF403946F4F0A093669B07C2AD /* AEADChaCha20Poly1305.swift */; };
+		F3CD28EDDC7FA18F362C15FBE84CEE5B /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F94901FD07FD9738AAB47785E963A5C /* DGActivityIndicatorTriplePulseAnimation.m */; };
+		F6440F9C4AE8A246BBF3E10F9DD66DD0 /* ReachabilitySwift-ReachabilitySwift in Resources */ = {isa = PBXBuildFile; fileRef = 842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */; };
+		F8B1D60989FADC634E8C5DA724AE544E /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0344F9F5C92841285DD9A52ABA6D5543 /* PBKDF1.swift */; };
+		F9F64988E5483402A6B9A6D650D1420A /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0082D9EF5823D01C4D626D85209F496 /* Rabbit.swift */; };
+		FB1FBAAE796073299B98C81A07B1FEAB /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04965E10D2B32BC41EC9BC72345F718A /* ReachabilitySwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C15D8B1B7901E7903B7836823137C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		706860AB374385FA84E9233E313A4E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8C943EF5CB0B747A82882C5D3ECF93;
+			remoteInfo = "ReachabilitySwift-ReachabilitySwift";
+		};
+		97F91C71A75D9B919E9BF2C1412B8C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		F53B1670EFCBEB232CD7A815251EF5AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197CB025C6981AE8927788C5B01B9D97;
+			remoteInfo = DGActivityIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003CD5F5B96B589E6002F9E25C30C3F2 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = Sources/CryptoSwift/CS_BigInt/Hashable.swift; sourceTree = "<group>"; };
+		00EFBC163C9B19A46F506B4F40687993 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "Sources/CryptoSwift/CS_BigInt/Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		014CD09BE5342D6FA0235510AD1FB7AD /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		019CEA18EA7959CC28635BEA55740C5C /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimationProtocol.h; path = DGActivityIndicatorView/DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
+		0344F9F5C92841285DD9A52ABA6D5543 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS/PBKDF1.swift; sourceTree = "<group>"; };
+		04965E10D2B32BC41EC9BC72345F718A /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		056301950AE84F47E99F3345E613B2BD /* BlockEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockEncryptor.swift; path = Sources/CryptoSwift/BlockEncryptor.swift; sourceTree = "<group>"; };
+		059F319744DF904906DB76220D07A5D5 /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
+		05AAE452B71C66F0B8855962F6873D27 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
+		06875A31764C1D1C0E05254576D2E4BB /* DGActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
+		06B125DCFF4899E871CC4D1851DA08C2 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0874593FFC4FA3BA74509E0C4586C177 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTwoDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		0B28FB284C32A0435F8366E534EF9340 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
+		0B3C55191FB45D8068845C4D25E5264A /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		0B6A090E322901BE6AF91DC47A05DE79 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scrypt.swift; path = Sources/CryptoSwift/Scrypt.swift; sourceTree = "<group>"; };
+		0B7066193587B5B1C9DE9D99D6F2423E /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		0B99ADD7502FC7218E5A5A90975F31A1 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		0C00D592D567A27E46E50C7FCB7FAE56 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		0E245DCB47FA0AE9D91053C074A2A7BB /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "Sources/CryptoSwift/CS_BigInt/Data Conversion.swift"; sourceTree = "<group>"; };
+		11E50A26B6F51D49C53F351579D746D7 /* ASN1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1.swift; path = Sources/CryptoSwift/ASN1/ASN1.swift; sourceTree = "<group>"; };
+		1463E61394D0DEA3C48384572275E1E4 /* ASN1Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Scanner.swift; path = Sources/CryptoSwift/ASN1/ASN1Scanner.swift; sourceTree = "<group>"; };
+		153BFAA5A6AB6B015AAF6EB1BA584258 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorThreeDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		1755BC682D329E9E295F5B8E55623C54 /* BlockDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockDecryptor.swift; path = Sources/CryptoSwift/BlockDecryptor.swift; sourceTree = "<group>"; };
+		179A295C6019B6FD703E56CF682B2F19 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseSyncAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		1823AF59D80249969E581EE4A4E3A769 /* CryptoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.release.xcconfig; sourceTree = "<group>"; };
+		188CF3892E721990A383E83A3F29F548 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A2B6904ABA723C2504BD641D082E6BD /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		1B760E69448868D86E6255520801591E /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		1D29C8A16797D929D17902C4C3D4F323 /* RSA+Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RSA+Signature.swift"; path = "Sources/CryptoSwift/RSA/RSA+Signature.swift"; sourceTree = "<group>"; };
+		1E6881A298121833E3C75C99BCA8BFB5 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = Sources/CryptoSwift/CS_BigInt/Codable.swift; sourceTree = "<group>"; };
+		1FBE7C4ACDEB48DB2FBBF2E480F4A1B3 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = Sources/CryptoSwift/CS_BigInt/Division.swift; sourceTree = "<group>"; };
+		20F4508E2F9FE0CCAE4F596B4791927F /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		215F5D5DEC5CF4863DB132F0B8A8A355 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		2190BBC375D74C86606A61FD86B4F4FF /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C2F09323F25AB2EA8C28807CF46F1A /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		235258FA2B5F5923B1EF7DF88072BA02 /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "Sources/CryptoSwift/CS_BigInt/Square Root.swift"; sourceTree = "<group>"; };
+		24E61E15161D7933460D77E784570398 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
+		24FE88A827C65EF6D25F8B4655DD2A54 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Sources/CryptoSwift/CS_BigInt/GCD.swift; sourceTree = "<group>"; };
+		268A36DEAB7EC32C157E3105815645F5 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorFiveDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		2804267ABBAB18DDCA06088BA75EA2AF /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
+		29E868A13529462434EE04D415103CE4 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorDoubleBounceAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		2AE9FAD8FEF75E10A3EFB8BB35BE4943 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriangleSkewSpinAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		2D23DA784FF4013BAEA42E2492158CFD /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS/PBKDF2.swift; sourceTree = "<group>"; };
+		2D34719389F8D36569A57ACC999246EE /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
+		2DF1725E3728348B4FE57381620B8AE8 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		32454B886B816F7485D7A0614A2C8916 /* GCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCM.swift; path = Sources/CryptoSwift/BlockMode/GCM.swift; sourceTree = "<group>"; };
+		33BB7D2F2436D2B6CD69A84956A3DB0A /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
+		34DD63F64921D38940EDA350CB6E5EAE /* DGActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		34E20217F6E07006AB5A78D90D08DA70 /* RSA+Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RSA+Cipher.swift"; path = "Sources/CryptoSwift/RSA/RSA+Cipher.swift"; sourceTree = "<group>"; };
+		35774449EF4AB45635025EB7B2D51066 /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
+		38F25E70099048DF4B6B2CE31547E738 /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		39CC7628BBBA7751FA5ED00CE9B9BE87 /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTwoDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		3A40E004A21EB88A07322BBA36EDEA67 /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorCookieTerminatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		3BC6E3D974C0746E3033F95561F15FFD /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
+		3BFCF7F15C8663DA5FE06E81E0104BA1 /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
+		3C652DADAD45730C6A28322B313766B6 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		3EF4FD96C13AEE3B3A84E7B12ADB951F /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
+		3F3F55BD872972FE165819F6AAA4FA13 /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		3F94901FD07FD9738AAB47785E963A5C /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriplePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		404B3CA91B16CBACE2F080E674A23D42 /* PKCS1v15.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS1v15.swift; path = Sources/CryptoSwift/PKCS/PKCS1v15.swift; sourceTree = "<group>"; };
+		41153F65694476CFC3A71DD8BC0CF8A5 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		416995C0E3DD2DD6D4FCC20796ECC6BA /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		4363BC435047ADB66486A213FFD502C3 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriangleSkewSpinAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		44357D0DDFED8E90A93BA18E0F16F01A /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePartyAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		4A1B41921DF5C9DE7F58DCA81702E7C5 /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
+		4A873CD4916CFC5394F04785208FA0A6 /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
+		4BF64E222E51231BDE8F0A70F9461302 /* AEAD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEAD.swift; path = Sources/CryptoSwift/AEAD/AEAD.swift; sourceTree = "<group>"; };
+		4C4AAF78BCA899D4DC44318343B31726 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
+		4C8DECEEB469FC0B66199180218D7799 /* Pods-VXH-CAM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VXH-CAM-Info.plist"; sourceTree = "<group>"; };
+		4CF8E6335936207E74066FC8BB68043B /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/CryptoSwift/CS_BigInt/Exponentiation.swift; sourceTree = "<group>"; };
+		51B518E0BE53DEA0CDAAD298E18FF0D4 /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorDoubleBounceAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		557E8E9CB84A473A949129E1A78A2977 /* DGActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DGActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		5B804E3A71629ED2015B99A30EFD2042 /* RSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSA.swift; path = Sources/CryptoSwift/RSA/RSA.swift; sourceTree = "<group>"; };
+		5F7237F08D93EE3FD174C7A5486E4F4C /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
+		61E9D83BBCD9B5A2DA4FA890B40719CF /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "Sources/CryptoSwift/CS_BigInt/Bitwise Ops.swift"; sourceTree = "<group>"; };
+		6207982F1910BBEF50327368DA267329 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		62B1F22B826CFA63CA2D462F0BC9A109 /* ASN1Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Encoder.swift; path = Sources/CryptoSwift/ASN1/ASN1Encoder.swift; sourceTree = "<group>"; };
+		631662CB3BAEC9A80287E698DE3630B7 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		6650F003D90766693359DD8939F519D4 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/CryptoSwift/CS_BigInt/Shifts.swift; sourceTree = "<group>"; };
+		668546982295DED3869CAD01B5306369 /* XChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/XChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		66FA1B33468C2C020114E4BA134CDB50 /* AEADXChaCha20Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEADXChaCha20Poly1305.swift; path = Sources/CryptoSwift/AEAD/AEADXChaCha20Poly1305.swift; sourceTree = "<group>"; };
+		687D154954C0973E3F8ED7283BA2B194 /* Pods-VXH-CAM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VXH-CAM.modulemap"; sourceTree = "<group>"; };
+		68F49201743D960DE3416C7981758279 /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSandglassAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		69117AA1AEDD726E9E5833FBD1B7BFF3 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		69749087A3E8B9F8B351CC2790A574F2 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagDeflectAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		6B92466010336BED4116A3AAD0EA9EBD /* Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signature.swift; path = Sources/CryptoSwift/Signature.swift; sourceTree = "<group>"; };
+		6DFD123119A3D025A3640B52FD50ABF2 /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		6E3D2E69A9DFD74E404BCBF28F6633B8 /* Pods-VXH-CAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VXH-CAM.release.xcconfig"; sourceTree = "<group>"; };
+		6EAEE481E67DF49E39AD8CDD91AB0BF2 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagDeflectAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		71C9E923C73DE9A889A4F44CC79CF9F1 /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSquaresAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		727016D02359CE8BF9CA6CCF01CF9D6B /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		72F064598134A3E8C1A1C4F3D050D5CB /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		7418E1F0A0DB574E1C9E4C7F1C2D3A31 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		75AE6E0A4E9B8F239E9593CAE2EF29B6 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		78CB2153387CAF1F6CC5D4DA134D762A /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriplePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		792153B552148C28FE27365A0ED7CC3A /* CCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCM.swift; path = Sources/CryptoSwift/BlockMode/CCM.swift; sourceTree = "<group>"; };
+		7969470BB692A1C5BB468B16824DAE46 /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = Sources/CryptoSwift/CS_BigInt/Multiplication.swift; sourceTree = "<group>"; };
+		7A709F53B18A0D762725529AC9DA4433 /* Pods-VXH-CAM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VXH-CAM-umbrella.h"; sourceTree = "<group>"; };
+		7BE627D7CD62AB4D963C6518D28023CC /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSquaresAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		7D6846784A0D585540C9AFB12E12979E /* ISO78164Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO78164Padding.swift; path = Sources/CryptoSwift/ISO78164Padding.swift; sourceTree = "<group>"; };
+		804F700D095B02E20E765F3BD49E329F /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = Sources/CryptoSwift/CS_BigInt/Subtraction.swift; sourceTree = "<group>"; };
+		80C188A1E80CBEBDBD3B0B6895BD8A34 /* ISO10126Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO10126Padding.swift; path = Sources/CryptoSwift/ISO10126Padding.swift; sourceTree = "<group>"; };
+		8178081D5FA2AF4D603C53832CB8C109 /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
+		842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ReachabilitySwift-ReachabilitySwift"; path = ReachabilitySwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8487BAF36C20F7387E597A8B05A44F88 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
+		84AE85408FDB49E462104F160C8ECD34 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
+		84F477F07046195EEF035C3CA69AE84F /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
+		860E32548D09DC3FF21223AAB9FCFE49 /* DGActivityIndicatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		88376C516BDACC25CCE3DC4DB9A6A8E9 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		885FF6D6B4F0342E4B8748B0411DDC2D /* XChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XChaCha20.swift; path = Sources/CryptoSwift/XChaCha20.swift; sourceTree = "<group>"; };
+		893D6D5571CF9A476E2C73D6CAC40D99 /* ASN1Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Decoder.swift; path = Sources/CryptoSwift/ASN1/ASN1Decoder.swift; sourceTree = "<group>"; };
+		8A0A6A1DF1D9DA2CC02BA280014E9193 /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
+		8AAFAD6D01522D231788041394979204 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		8BEFC00BACC12C791EE608A4ED23EBD5 /* DER.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DER.swift; path = Sources/CryptoSwift/PEM/DER.swift; sourceTree = "<group>"; };
+		8C61683DC60FAB10C26A7AEAC342CAEB /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		8E265EA3E46FB35D438D2DB48C956542 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/CryptoSwift/SHA3.swift; sourceTree = "<group>"; };
+		8EA652E8F68D23EA6A37678DF1A855A8 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
+		9132139B15D24589D6A1B6A973774BEB /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
+		91EC9D350F02AF3662694355598DC53F /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/CryptoSwift/CS_BigInt/Random.swift; sourceTree = "<group>"; };
+		92059EF52E161DEE348E51A4A08D1EAB /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/CryptoSwift/CS_BigInt/Addition.swift; sourceTree = "<group>"; };
+		9387A9BD0B1F01579975A5687488E5BA /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "Sources/CryptoSwift/CS_BigInt/Integer Conversion.swift"; sourceTree = "<group>"; };
+		9465234466A66BD28C1B40CDAE538FF5 /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallTrianglePathAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		951845DB34CB2D0608EE2D9340CB0DEC /* Array+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Array+Foundation.swift"; sourceTree = "<group>"; };
+		957FBB298EB02825BE63C029D121A320 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		9886C30FD837EA6F558C2BE05D6521FB /* DGActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
+		9ACE283FED7B823480B537681DB27BB4 /* Pods-VXH-CAM */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VXH-CAM"; path = Pods_VXH_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAFBFFDA7ABFE1C6A8ADFEBFE593983 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		9FC2ABF69AF2DE14F540560E3F126C6E /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorView.m; path = DGActivityIndicatorView/DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		A072BD3C0C73B525B23126F4E7ED57DF /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
+		A4D21B0DE78AED73FA8E1037A1FF7133 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
+		A5E0276B7F15C2F81B40B34B3087D093 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
+		A7473D71E6A3FABC79FEC01CA20438E7 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+		A8FA7B7A4EDC1832684BE140E8E6B730 /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallSpinFadeLoader.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		AAE1CC60D1B15052831C0B24525E0C00 /* DGActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		ACCB8B2CC4FC9801816E65FD68CF38B1 /* UInt128.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt128.swift; path = Sources/CryptoSwift/UInt128.swift; sourceTree = "<group>"; };
+		ACF040B4604CFFE5C86D152116029D66 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "Sources/CryptoSwift/CS_BigInt/Prime Test.swift"; sourceTree = "<group>"; };
+		AD4E2DDD9557C6362BEC1F9487A709F8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotatePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		ADAA062A944570CE2311E34A6329C3BE /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		B0947174BD6FAD553F62A0D21C4F7FFE /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		B13AE999877BC4991EC8445FD7B0B983 /* CryptoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.debug.xcconfig; sourceTree = "<group>"; };
+		B30BC9C0D5B3F2FA600A3442CE32A95E /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		B4031A2C738EABF205ABF7D5E2AD638D /* CS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CS.swift; path = Sources/CryptoSwift/CS_BigInt/CS.swift; sourceTree = "<group>"; };
+		B48B5CABD376746F29E1418CFC72D6BC /* OCB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCB.swift; path = Sources/CryptoSwift/BlockMode/OCB.swift; sourceTree = "<group>"; };
+		B6E808E5DD0B6761DBEAFBAC17D5FCFD /* Pods-VXH-CAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VXH-CAM.debug.xcconfig"; sourceTree = "<group>"; };
+		B841CA5A9B92FFBB510C963E96398DFE /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		BA50CA73CBDC45CD040B84FD4B6CCA70 /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		BB3FE8535AA6A737E5D73361DE576A9C /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorFiveDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DGActivityIndicatorView; path = DGActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF199F13FADB8AE2FD21845FB985B66A /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		BF1BC20CCA5A1944FE92325190C6C09B /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePartyAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
+		BFBE832D106BC82FA251ADCE262A5298 /* Pods-VXH-CAM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VXH-CAM-acknowledgements.plist"; sourceTree = "<group>"; };
+		C314D7D5396380B5B6057695399F7A22 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorView.h; path = DGActivityIndicatorView/DGActivityIndicatorView.h; sourceTree = "<group>"; };
+		C43E3FA1E2F694020E8CF2BF97301F5C /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		C46774ED072C19806E2D07573151E6F5 /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTripleRingsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		C48C47CE25D5558559ED8C43275555D9 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorCookieTerminatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		C727CC391BF8A363E0533ADA3DE18559 /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		C72E58049CF7FA24871DC82F98CD1C2D /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/CryptoSwift/CS_BigInt/BigUInt.swift; sourceTree = "<group>"; };
+		CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		CDF8434F7503234B65B85C8D83270952 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
+		CE4833D2DB66A0B2B09B207B7791152C /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		CE739C644DAEA47F630FEC5B30E20FFC /* AES.Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.Cryptors.swift; path = Sources/CryptoSwift/AES.Cryptors.swift; sourceTree = "<group>"; };
+		D2E433007F1AACB53DCFF535939DA702 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		D3919356AC6441BD2635CF4F927B48BA /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotatePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		D3BB3F40A123B3AA07384F331D82BDDE /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
+		D51D12450AD6F57628C0CDE2BC4FD9F5 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		D61F9A94DAAAD230EE3A0BF443EBD09D /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingTrigonAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		D6FA7F90905B9D17451DF900AA7ADBFD /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
+		D74316285906AE712F36C66C3BA348C0 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
+		D7F6D015E576471877ED2E3BFF5F6C22 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		D8D6029CB9FDDB8BD5AED92F8ECB9C9A /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		D8DF09A47520D2C041DCB29EF23B4B13 /* CipherModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CipherModeWorker.swift; path = Sources/CryptoSwift/BlockMode/CipherModeWorker.swift; sourceTree = "<group>"; };
+		DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB1382968A1D451E4C8097D432DA49E3 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		DC486FCD3A883F2CCFFF2CF6611D0E01 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
+		DC5C1958288B503B73A1F267EEC14C14 /* DGActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DGActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		DDE9D396B361FC5B600CB26FB18014FD /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
+		DE8415E7A374D7453BFCF176C428DCE6 /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallSpinFadeLoader.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		DF301F1B8174F73DB0939222800D138C /* Pods-VXH-CAM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VXH-CAM-frameworks.sh"; sourceTree = "<group>"; };
+		E0082D9EF5823D01C4D626D85209F496 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
+		E03CABFF13287C62B67B0724361471FB /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
+		E06236C8F555D1891EDB7970B10B967E /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		E182A2358E696EF079C002025AF0556F /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		E3CA4E2127D2B765B4B2E02D0CBE77D6 /* Pods-VXH-CAM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VXH-CAM-dummy.m"; sourceTree = "<group>"; };
+		E535AF6C38984D2351E8B81D0AAEDC8C /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		E53ED145BD3779921475DB3EB8FE0124 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
+		E6179D99E456AD86BD2A55830DB7A463 /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorThreeDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		E6590557A0E40DB4C52A6F999213E10A /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		E7F128001180F539975CF18FF652C412 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		E8438DE152960957C5B819CE497BC0D3 /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSandglassAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		E957090DE7CD7270D06D8243622E4324 /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingTrigonAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		EAF8EEDF027BE8935CE82D57574C31C1 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/CryptoSwift/CS_BigInt/BigInt.swift; sourceTree = "<group>"; };
+		EB3540A4DBB0CDAF3B3043F9BEE461ED /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
+		EB74189F9A2A7BC0A1E48779D764D590 /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		ECE1EA6764FFA367F19D06B95BECCB41 /* HKDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKDF.swift; path = Sources/CryptoSwift/HKDF.swift; sourceTree = "<group>"; };
+		EDF3A9D11CD3F2AFCBCA6238BD982EF7 /* CryptoSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CryptoSwift-Info.plist"; sourceTree = "<group>"; };
+		EE04FEAF58AE0AE23C61B50EB8AF9CD7 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/CryptoSwift/CS_BigInt/String Conversion.swift"; sourceTree = "<group>"; };
+		EE131F5BC5573E54EB70510B2AADA69F /* StreamDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamDecryptor.swift; path = Sources/CryptoSwift/StreamDecryptor.swift; sourceTree = "<group>"; };
+		EF5C3D8220C76B4E16639FD98479C0A4 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		EFC8FCB49DADE014D7A7E329BEBC6F76 /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
+		EFDB025922D74F8E901547C00EB14BF3 /* StreamEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamEncryptor.swift; path = Sources/CryptoSwift/StreamEncryptor.swift; sourceTree = "<group>"; };
+		F1247D1CF8D086DAD8C0A868B408EFDF /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Sources/CryptoSwift/BatchedCollection.swift; sourceTree = "<group>"; };
+		F1D3C42F04390D349F0D19D94A7BD1AC /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseSyncAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		F2E571D2AA2B659E3746FE91BBE98918 /* Pods-VXH-CAM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VXH-CAM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F397531B44202BC0B38A47140D5A515C /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
+		F3C32060709FB7041FABAD2D4FF4EE19 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		F4A70E4A2DC3D8D26372B6E293BEA169 /* ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		F4CA973CE4624D4C05ABF419F7504F69 /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallTrianglePathAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		F52436754D2F4C51C47B5585C7F47588 /* DGActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		F5727906446D5D874B504380E5636F4F /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		F614AA62522206FE45D25ADC54C7201F /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
+		F71B9CD19152C2B43947E2F9D8E7ADC1 /* CBCMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBCMAC.swift; path = Sources/CryptoSwift/CBCMAC.swift; sourceTree = "<group>"; };
+		F79E81AD10318B9003C6A4ED4BE2AEEB /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorNineDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86587AF403946F4F0A093669B07C2AD /* AEADChaCha20Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEADChaCha20Poly1305.swift; path = Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift; sourceTree = "<group>"; };
+		F8934F08B6E14AC000B0753DA9D34552 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = Sources/CryptoSwift/CS_BigInt/Comparable.swift; sourceTree = "<group>"; };
+		FBC8D05760B2296F1CABE8E9E755BB8C /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
+		FC182A2A3AE554E83CD000C53B2DE153 /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
+		FC9FB897A7A94302FE0F4BDA98A30EA9 /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "Sources/CryptoSwift/CS_BigInt/Words and Bits.swift"; sourceTree = "<group>"; };
+		FD99B33682F8B9E9FFE08B1A53232D03 /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorNineDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		FE0DD436A689F483F92E51BB9AF9F7FE /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTripleRingsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		FE60D0CE5A6422DD20230E749D1454C9 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		FECD90ABA2A68C920AA6BEBDE9A31BA3 /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		FF11C7EFD89B7E6AAF35920EDDE49A80 /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE21162F657EDDF31AF254FFBE8CC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07150C071261E24559DBA4249F783902 /* Foundation.framework in Frameworks */,
+				C57EED78F93D0248C7B9D49A442EC5CC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B719F093BD3349B4CFBB740A6D4F2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230AE3B60889CEC4EA4A178703D7EEAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E92B2978ACD4C2A84AE756934458EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226C6D8E8FD4DAB7DD12E09DBD9EA5BD /* CoreTelephony.framework in Frameworks */,
+				B98EBEDF5EB7189F6BBB82A1CE217B01 /* Foundation.framework in Frameworks */,
+				3986AE02311B002D77F34137176CEC9B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B88ACE6CDDCEFFD374E0FD6B82F885F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C100CB3940731FCC812ED9F40744CC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4DF455F8A7D134891EDBC158E8891E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2580431225931FBC40185E5CA0DE2B0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7418E1F0A0DB574E1C9E4C7F1C2D3A31 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C25EC3D7D4368B5353DC93D6E7A2BC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B7066193587B5B1C9DE9D99D6F2423E /* ReachabilitySwift.modulemap */,
+				04965E10D2B32BC41EC9BC72345F718A /* ReachabilitySwift-dummy.m */,
+				E535AF6C38984D2351E8B81D0AAEDC8C /* ReachabilitySwift-Info.plist */,
+				0B99ADD7502FC7218E5A5A90975F31A1 /* ReachabilitySwift-prefix.pch */,
+				631662CB3BAEC9A80287E698DE3630B7 /* ReachabilitySwift-umbrella.h */,
+				88376C516BDACC25CCE3DC4DB9A6A8E9 /* ReachabilitySwift.debug.xcconfig */,
+				3C652DADAD45730C6A28322B313766B6 /* ReachabilitySwift.release.xcconfig */,
+				F4A70E4A2DC3D8D26372B6E293BEA169 /* ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		60431CC2CF66BF5FB45D8896FA73F2EC /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C3D8220C76B4E16639FD98479C0A4 /* Reachability.swift */,
+				2580431225931FBC40185E5CA0DE2B0A /* Resources */,
+				5C25EC3D7D4368B5353DC93D6E7A2BC9 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		6574888B55AE39A97DE362A7189FEDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */,
+				BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */,
+				9ACE283FED7B823480B537681DB27BB4 /* Pods-VXH-CAM */,
+				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
+				842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F64E981778852F136F38610BCD3A9C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */,
+				18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */,
+				0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */,
+				DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7815B3981F295DCA209DB9FEEDB45CB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				059F319744DF904906DB76220D07A5D5 /* CryptoSwift.modulemap */,
+				F614AA62522206FE45D25ADC54C7201F /* CryptoSwift-dummy.m */,
+				EDF3A9D11CD3F2AFCBCA6238BD982EF7 /* CryptoSwift-Info.plist */,
+				9132139B15D24589D6A1B6A973774BEB /* CryptoSwift-prefix.pch */,
+				1A2B6904ABA723C2504BD641D082E6BD /* CryptoSwift-umbrella.h */,
+				B13AE999877BC4991EC8445FD7B0B983 /* CryptoSwift.debug.xcconfig */,
+				1823AF59D80249969E581EE4A4E3A769 /* CryptoSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoSwift";
+			sourceTree = "<group>";
+		};
+		87AF1CC26D19C6347CC78B7F0D025441 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				896D2FBB99192AE6B4E4B541DAF44604 /* Pods-VXH-CAM */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		896D2FBB99192AE6B4E4B541DAF44604 /* Pods-VXH-CAM */ = {
+			isa = PBXGroup;
+			children = (
+				687D154954C0973E3F8ED7283BA2B194 /* Pods-VXH-CAM.modulemap */,
+				F2E571D2AA2B659E3746FE91BBE98918 /* Pods-VXH-CAM-acknowledgements.markdown */,
+				BFBE832D106BC82FA251ADCE262A5298 /* Pods-VXH-CAM-acknowledgements.plist */,
+				E3CA4E2127D2B765B4B2E02D0CBE77D6 /* Pods-VXH-CAM-dummy.m */,
+				DF301F1B8174F73DB0939222800D138C /* Pods-VXH-CAM-frameworks.sh */,
+				4C8DECEEB469FC0B66199180218D7799 /* Pods-VXH-CAM-Info.plist */,
+				7A709F53B18A0D762725529AC9DA4433 /* Pods-VXH-CAM-umbrella.h */,
+				B6E808E5DD0B6761DBEAFBAC17D5FCFD /* Pods-VXH-CAM.debug.xcconfig */,
+				6E3D2E69A9DFD74E404BCBF28F6633B8 /* Pods-VXH-CAM.release.xcconfig */,
+			);
+			name = "Pods-VXH-CAM";
+			path = "Target Support Files/Pods-VXH-CAM";
+			sourceTree = "<group>";
+		};
+		9EF855EAF2BA3CE3CFE2BA60E32C6827 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				557E8E9CB84A473A949129E1A78A2977 /* DGActivityIndicatorView.modulemap */,
+				34DD63F64921D38940EDA350CB6E5EAE /* DGActivityIndicatorView-dummy.m */,
+				DC5C1958288B503B73A1F267EEC14C14 /* DGActivityIndicatorView-Info.plist */,
+				F52436754D2F4C51C47B5585C7F47588 /* DGActivityIndicatorView-prefix.pch */,
+				AAE1CC60D1B15052831C0B24525E0C00 /* DGActivityIndicatorView-umbrella.h */,
+				9886C30FD837EA6F558C2BE05D6521FB /* DGActivityIndicatorView.debug.xcconfig */,
+				06875A31764C1D1C0E05254576D2E4BB /* DGActivityIndicatorView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DGActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		A2579D8A38116ACC9AD620C22BE68375 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				92059EF52E161DEE348E51A4A08D1EAB /* Addition.swift */,
+				4BF64E222E51231BDE8F0A70F9461302 /* AEAD.swift */,
+				F86587AF403946F4F0A093669B07C2AD /* AEADChaCha20Poly1305.swift */,
+				66FA1B33468C2C020114E4BA134CDB50 /* AEADXChaCha20Poly1305.swift */,
+				B0947174BD6FAD553F62A0D21C4F7FFE /* AES.swift */,
+				F5727906446D5D874B504380E5636F4F /* AES+Foundation.swift */,
+				CE739C644DAEA47F630FEC5B30E20FFC /* AES.Cryptors.swift */,
+				D3BB3F40A123B3AA07384F331D82BDDE /* Array+Extension.swift */,
+				951845DB34CB2D0608EE2D9340CB0DEC /* Array+Foundation.swift */,
+				11E50A26B6F51D49C53F351579D746D7 /* ASN1.swift */,
+				893D6D5571CF9A476E2C73D6CAC40D99 /* ASN1Decoder.swift */,
+				62B1F22B826CFA63CA2D462F0BC9A109 /* ASN1Encoder.swift */,
+				1463E61394D0DEA3C48384572275E1E4 /* ASN1Scanner.swift */,
+				24E61E15161D7933460D77E784570398 /* Authenticator.swift */,
+				F1247D1CF8D086DAD8C0A868B408EFDF /* BatchedCollection.swift */,
+				EAF8EEDF027BE8935CE82D57574C31C1 /* BigInt.swift */,
+				C72E58049CF7FA24871DC82F98CD1C2D /* BigUInt.swift */,
+				8EA652E8F68D23EA6A37678DF1A855A8 /* Bit.swift */,
+				61E9D83BBCD9B5A2DA4FA890B40719CF /* Bitwise Ops.swift */,
+				E53ED145BD3779921475DB3EB8FE0124 /* BlockCipher.swift */,
+				1755BC682D329E9E295F5B8E55623C54 /* BlockDecryptor.swift */,
+				056301950AE84F47E99F3345E613B2BD /* BlockEncryptor.swift */,
+				06B125DCFF4899E871CC4D1851DA08C2 /* BlockMode.swift */,
+				CE4833D2DB66A0B2B09B207B7791152C /* BlockModeOptions.swift */,
+				8178081D5FA2AF4D603C53832CB8C109 /* Blowfish.swift */,
+				FC182A2A3AE554E83CD000C53B2DE153 /* Blowfish+Foundation.swift */,
+				EFC8FCB49DADE014D7A7E329BEBC6F76 /* CBC.swift */,
+				F71B9CD19152C2B43947E2F9D8E7ADC1 /* CBCMAC.swift */,
+				792153B552148C28FE27365A0ED7CC3A /* CCM.swift */,
+				A4D21B0DE78AED73FA8E1037A1FF7133 /* CFB.swift */,
+				E03CABFF13287C62B67B0724361471FB /* ChaCha20.swift */,
+				E6590557A0E40DB4C52A6F999213E10A /* ChaCha20+Foundation.swift */,
+				4C4AAF78BCA899D4DC44318343B31726 /* Checksum.swift */,
+				B30BC9C0D5B3F2FA600A3442CE32A95E /* Cipher.swift */,
+				D8DF09A47520D2C041DCB29EF23B4B13 /* CipherModeWorker.swift */,
+				5F7237F08D93EE3FD174C7A5486E4F4C /* CMAC.swift */,
+				1E6881A298121833E3C75C99BCA8BFB5 /* Codable.swift */,
+				8487BAF36C20F7387E597A8B05A44F88 /* Collection+Extension.swift */,
+				EB3540A4DBB0CDAF3B3043F9BEE461ED /* CompactMap.swift */,
+				F8934F08B6E14AC000B0753DA9D34552 /* Comparable.swift */,
+				FBC8D05760B2296F1CABE8E9E755BB8C /* Cryptor.swift */,
+				CDF8434F7503234B65B85C8D83270952 /* Cryptors.swift */,
+				B4031A2C738EABF205ABF7D5E2AD638D /* CS.swift */,
+				ADAA062A944570CE2311E34A6329C3BE /* CTR.swift */,
+				0E245DCB47FA0AE9D91053C074A2A7BB /* Data Conversion.swift */,
+				84F477F07046195EEF035C3CA69AE84F /* Data+Extension.swift */,
+				8BEFC00BACC12C791EE608A4ED23EBD5 /* DER.swift */,
+				35774449EF4AB45635025EB7B2D51066 /* Digest.swift */,
+				4A873CD4916CFC5394F04785208FA0A6 /* DigestType.swift */,
+				1FBE7C4ACDEB48DB2FBBF2E480F4A1B3 /* Division.swift */,
+				FECD90ABA2A68C920AA6BEBDE9A31BA3 /* ECB.swift */,
+				4CF8E6335936207E74066FC8BB68043B /* Exponentiation.swift */,
+				00EFBC163C9B19A46F506B4F40687993 /* Floating Point Conversion.swift */,
+				24FE88A827C65EF6D25F8B4655DD2A54 /* GCD.swift */,
+				32454B886B816F7485D7A0614A2C8916 /* GCM.swift */,
+				0B3C55191FB45D8068845C4D25E5264A /* Generics.swift */,
+				003CD5F5B96B589E6002F9E25C30C3F2 /* Hashable.swift */,
+				ECE1EA6764FFA367F19D06B95BECCB41 /* HKDF.swift */,
+				D2E433007F1AACB53DCFF535939DA702 /* HMAC.swift */,
+				D51D12450AD6F57628C0CDE2BC4FD9F5 /* HMAC+Foundation.swift */,
+				DDE9D396B361FC5B600CB26FB18014FD /* Int+Extension.swift */,
+				9387A9BD0B1F01579975A5687488E5BA /* Integer Conversion.swift */,
+				80C188A1E80CBEBDBD3B0B6895BD8A34 /* ISO10126Padding.swift */,
+				7D6846784A0D585540C9AFB12E12979E /* ISO78164Padding.swift */,
+				84AE85408FDB49E462104F160C8ECD34 /* MD5.swift */,
+				7969470BB692A1C5BB468B16824DAE46 /* Multiplication.swift */,
+				A7473D71E6A3FABC79FEC01CA20438E7 /* NoPadding.swift */,
+				B48B5CABD376746F29E1418CFC72D6BC /* OCB.swift */,
+				A072BD3C0C73B525B23126F4E7ED57DF /* OFB.swift */,
+				8AAFAD6D01522D231788041394979204 /* Operators.swift */,
+				D7F6D015E576471877ED2E3BFF5F6C22 /* Padding.swift */,
+				0344F9F5C92841285DD9A52ABA6D5543 /* PBKDF1.swift */,
+				2D23DA784FF4013BAEA42E2492158CFD /* PBKDF2.swift */,
+				05AAE452B71C66F0B8855962F6873D27 /* PCBC.swift */,
+				404B3CA91B16CBACE2F080E674A23D42 /* PKCS1v15.swift */,
+				DC486FCD3A883F2CCFFF2CF6611D0E01 /* PKCS5.swift */,
+				0B28FB284C32A0435F8366E534EF9340 /* PKCS7.swift */,
+				4A1B41921DF5C9DE7F58DCA81702E7C5 /* PKCS7Padding.swift */,
+				F397531B44202BC0B38A47140D5A515C /* Poly1305.swift */,
+				ACF040B4604CFFE5C86D152116029D66 /* Prime Test.swift */,
+				E0082D9EF5823D01C4D626D85209F496 /* Rabbit.swift */,
+				FE60D0CE5A6422DD20230E749D1454C9 /* Rabbit+Foundation.swift */,
+				91EC9D350F02AF3662694355598DC53F /* Random.swift */,
+				5B804E3A71629ED2015B99A30EFD2042 /* RSA.swift */,
+				34E20217F6E07006AB5A78D90D08DA70 /* RSA+Cipher.swift */,
+				1D29C8A16797D929D17902C4C3D4F323 /* RSA+Signature.swift */,
+				0B6A090E322901BE6AF91DC47A05DE79 /* Scrypt.swift */,
+				BF199F13FADB8AE2FD21845FB985B66A /* SecureBytes.swift */,
+				3BC6E3D974C0746E3033F95561F15FFD /* SHA1.swift */,
+				DB1382968A1D451E4C8097D432DA49E3 /* SHA2.swift */,
+				8E265EA3E46FB35D438D2DB48C956542 /* SHA3.swift */,
+				6650F003D90766693359DD8939F519D4 /* Shifts.swift */,
+				6B92466010336BED4116A3AAD0EA9EBD /* Signature.swift */,
+				235258FA2B5F5923B1EF7DF88072BA02 /* Square Root.swift */,
+				EE131F5BC5573E54EB70510B2AADA69F /* StreamDecryptor.swift */,
+				EFDB025922D74F8E901547C00EB14BF3 /* StreamEncryptor.swift */,
+				A5E0276B7F15C2F81B40B34B3087D093 /* Strideable.swift */,
+				EE04FEAF58AE0AE23C61B50EB8AF9CD7 /* String Conversion.swift */,
+				2190BBC375D74C86606A61FD86B4F4FF /* String+Extension.swift */,
+				6207982F1910BBEF50327368DA267329 /* String+FoundationExtension.swift */,
+				804F700D095B02E20E765F3BD49E329F /* Subtraction.swift */,
+				ACCB8B2CC4FC9801816E65FD68CF38B1 /* UInt128.swift */,
+				8A0A6A1DF1D9DA2CC02BA280014E9193 /* UInt16+Extension.swift */,
+				3BFCF7F15C8663DA5FE06E81E0104BA1 /* UInt32+Extension.swift */,
+				2D34719389F8D36569A57ACC999246EE /* UInt64+Extension.swift */,
+				D6FA7F90905B9D17451DF900AA7ADBFD /* UInt8+Extension.swift */,
+				2804267ABBAB18DDCA06088BA75EA2AF /* Updatable.swift */,
+				33BB7D2F2436D2B6CD69A84956A3DB0A /* Utils.swift */,
+				FF11C7EFD89B7E6AAF35920EDDE49A80 /* Utils+Foundation.swift */,
+				FC9FB897A7A94302FE0F4BDA98A30EA9 /* Words and Bits.swift */,
+				885FF6D6B4F0342E4B8748B0411DDC2D /* XChaCha20.swift */,
+				668546982295DED3869CAD01B5306369 /* XChaCha20+Foundation.swift */,
+				3EF4FD96C13AEE3B3A84E7B12ADB951F /* ZeroPadding.swift */,
+				7815B3981F295DCA209DB9FEEDB45CB8 /* Support Files */,
+			);
+			name = CryptoSwift;
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F64E981778852F136F38610BCD3A9C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5C6E460D7F5113BBF7C68BAB5F8AF7 /* DGActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				860E32548D09DC3FF21223AAB9FCFE49 /* DGActivityIndicatorAnimation.h */,
+				3F3F55BD872972FE165819F6AAA4FA13 /* DGActivityIndicatorAnimation.m */,
+				019CEA18EA7959CC28635BEA55740C5C /* DGActivityIndicatorAnimationProtocol.h */,
+				014CD09BE5342D6FA0235510AD1FB7AD /* DGActivityIndicatorBallBeatAnimation.h */,
+				188CF3892E721990A383E83A3F29F548 /* DGActivityIndicatorBallBeatAnimation.m */,
+				22C2F09323F25AB2EA8C28807CF46F1A /* DGActivityIndicatorBallClipRotateAnimation.h */,
+				C43E3FA1E2F694020E8CF2BF97301F5C /* DGActivityIndicatorBallClipRotateAnimation.m */,
+				E06236C8F555D1891EDB7970B10B967E /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				9EAFBFFDA7ABFE1C6A8ADFEBFE593983 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				AD4E2DDD9557C6362BEC1F9487A709F8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
+				D3919356AC6441BD2635CF4F927B48BA /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
+				B841CA5A9B92FFBB510C963E96398DFE /* DGActivityIndicatorBallGridBeatAnimation.h */,
+				38F25E70099048DF4B6B2CE31547E738 /* DGActivityIndicatorBallGridBeatAnimation.m */,
+				957FBB298EB02825BE63C029D121A320 /* DGActivityIndicatorBallGridPulseAnimation.h */,
+				BA50CA73CBDC45CD040B84FD4B6CCA70 /* DGActivityIndicatorBallGridPulseAnimation.m */,
+				72F064598134A3E8C1A1C4F3D050D5CB /* DGActivityIndicatorBallPulseAnimation.h */,
+				E182A2358E696EF079C002025AF0556F /* DGActivityIndicatorBallPulseAnimation.m */,
+				F1D3C42F04390D349F0D19D94A7BD1AC /* DGActivityIndicatorBallPulseSyncAnimation.h */,
+				179A295C6019B6FD703E56CF682B2F19 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
+				E7F128001180F539975CF18FF652C412 /* DGActivityIndicatorBallRotateAnimation.h */,
+				69117AA1AEDD726E9E5833FBD1B7BFF3 /* DGActivityIndicatorBallRotateAnimation.m */,
+				C727CC391BF8A363E0533ADA3DE18559 /* DGActivityIndicatorBallScaleAnimation.h */,
+				2DF1725E3728348B4FE57381620B8AE8 /* DGActivityIndicatorBallScaleAnimation.m */,
+				6DFD123119A3D025A3640B52FD50ABF2 /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
+				D74316285906AE712F36C66C3BA348C0 /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
+				F3C32060709FB7041FABAD2D4FF4EE19 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
+				EB74189F9A2A7BC0A1E48779D764D590 /* DGActivityIndicatorBallScaleRippleAnimation.m */,
+				727016D02359CE8BF9CA6CCF01CF9D6B /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				215F5D5DEC5CF4863DB132F0B8A8A355 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				A8FA7B7A4EDC1832684BE140E8E6B730 /* DGActivityIndicatorBallSpinFadeLoader.h */,
+				DE8415E7A374D7453BFCF176C428DCE6 /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				F4CA973CE4624D4C05ABF419F7504F69 /* DGActivityIndicatorBallTrianglePathAnimation.h */,
+				9465234466A66BD28C1B40CDAE538FF5 /* DGActivityIndicatorBallTrianglePathAnimation.m */,
+				D8D6029CB9FDDB8BD5AED92F8ECB9C9A /* DGActivityIndicatorBallZigZagAnimation.h */,
+				41153F65694476CFC3A71DD8BC0CF8A5 /* DGActivityIndicatorBallZigZagAnimation.m */,
+				6EAEE481E67DF49E39AD8CDD91AB0BF2 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
+				69749087A3E8B9F8B351CC2790A574F2 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
+				C48C47CE25D5558559ED8C43275555D9 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
+				3A40E004A21EB88A07322BBA36EDEA67 /* DGActivityIndicatorCookieTerminatorAnimation.m */,
+				51B518E0BE53DEA0CDAAD298E18FF0D4 /* DGActivityIndicatorDoubleBounceAnimation.h */,
+				29E868A13529462434EE04D415103CE4 /* DGActivityIndicatorDoubleBounceAnimation.m */,
+				BB3FE8535AA6A737E5D73361DE576A9C /* DGActivityIndicatorFiveDotsAnimation.h */,
+				268A36DEAB7EC32C157E3105815645F5 /* DGActivityIndicatorFiveDotsAnimation.m */,
+				20F4508E2F9FE0CCAE4F596B4791927F /* DGActivityIndicatorLineScaleAnimation.h */,
+				0C00D592D567A27E46E50C7FCB7FAE56 /* DGActivityIndicatorLineScaleAnimation.m */,
+				BF1BC20CCA5A1944FE92325190C6C09B /* DGActivityIndicatorLineScalePartyAnimation.h */,
+				44357D0DDFED8E90A93BA18E0F16F01A /* DGActivityIndicatorLineScalePartyAnimation.m */,
+				416995C0E3DD2DD6D4FCC20796ECC6BA /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
+				75AE6E0A4E9B8F239E9593CAE2EF29B6 /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
+				1B760E69448868D86E6255520801591E /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				8C61683DC60FAB10C26A7AEAC342CAEB /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				F79E81AD10318B9003C6A4ED4BE2AEEB /* DGActivityIndicatorNineDotsAnimation.h */,
+				FD99B33682F8B9E9FFE08B1A53232D03 /* DGActivityIndicatorNineDotsAnimation.m */,
+				68F49201743D960DE3416C7981758279 /* DGActivityIndicatorRotatingSandglassAnimation.h */,
+				E8438DE152960957C5B819CE497BC0D3 /* DGActivityIndicatorRotatingSandglassAnimation.m */,
+				71C9E923C73DE9A889A4F44CC79CF9F1 /* DGActivityIndicatorRotatingSquaresAnimation.h */,
+				7BE627D7CD62AB4D963C6518D28023CC /* DGActivityIndicatorRotatingSquaresAnimation.m */,
+				D61F9A94DAAAD230EE3A0BF443EBD09D /* DGActivityIndicatorRotatingTrigonAnimation.h */,
+				E957090DE7CD7270D06D8243622E4324 /* DGActivityIndicatorRotatingTrigonAnimation.m */,
+				E6179D99E456AD86BD2A55830DB7A463 /* DGActivityIndicatorThreeDotsAnimation.h */,
+				153BFAA5A6AB6B015AAF6EB1BA584258 /* DGActivityIndicatorThreeDotsAnimation.m */,
+				4363BC435047ADB66486A213FFD502C3 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
+				2AE9FAD8FEF75E10A3EFB8BB35BE4943 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
+				78CB2153387CAF1F6CC5D4DA134D762A /* DGActivityIndicatorTriplePulseAnimation.h */,
+				3F94901FD07FD9738AAB47785E963A5C /* DGActivityIndicatorTriplePulseAnimation.m */,
+				C46774ED072C19806E2D07573151E6F5 /* DGActivityIndicatorTripleRingsAnimation.h */,
+				FE0DD436A689F483F92E51BB9AF9F7FE /* DGActivityIndicatorTripleRingsAnimation.m */,
+				0874593FFC4FA3BA74509E0C4586C177 /* DGActivityIndicatorTwoDotsAnimation.h */,
+				39CC7628BBBA7751FA5ED00CE9B9BE87 /* DGActivityIndicatorTwoDotsAnimation.m */,
+				C314D7D5396380B5B6057695399F7A22 /* DGActivityIndicatorView.h */,
+				9FC2ABF69AF2DE14F540560E3F126C6E /* DGActivityIndicatorView.m */,
+				9EF855EAF2BA3CE3CFE2BA60E32C6827 /* Support Files */,
+			);
+			name = DGActivityIndicatorView;
+			path = DGActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E1249DBFB51740EC59B2FF1906544D44 /* Pods */,
+				6574888B55AE39A97DE362A7189FEDEA /* Products */,
+				87AF1CC26D19C6347CC78B7F0D025441 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1249DBFB51740EC59B2FF1906544D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2579D8A38116ACC9AD620C22BE68375 /* CryptoSwift */,
+				CC5C6E460D7F5113BBF7C68BAB5F8AF7 /* DGActivityIndicatorView */,
+				60431CC2CF66BF5FB45D8896FA73F2EC /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		002F95A711D204D640C5E5097E63BC34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB87BEEF3BAF15E7C8698329CF619265 /* CryptoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FD366C33BCC6B8329CFAB14F35F9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1D3DC9B1F8CE1F1BB54814C656144F /* Pods-VXH-CAM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1032F818132B00A732C52C6C23061 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE63ABED28BE0A6C9151F3FCFAD079A4 /* DGActivityIndicatorAnimation.h in Headers */,
+				EC1ECADF76682C8F5B611D20E3B91401 /* DGActivityIndicatorAnimationProtocol.h in Headers */,
+				E8600D13C8187C946E47E4DC2CA8272E /* DGActivityIndicatorBallBeatAnimation.h in Headers */,
+				7CEAA747A522A1E790AE3DCA601687D3 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */,
+				604093E69BA594BB6D54246124CEC4CB /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */,
+				C6A3DA65C2AA19FF969E6D6729FC5202 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */,
+				473CA5C436637E74378110E19B70F53B /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */,
+				8CC854CFE2456824703B800DE2DC77BC /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */,
+				78BA47E63F96CB46C844137999948F16 /* DGActivityIndicatorBallPulseAnimation.h in Headers */,
+				E6663A5C4D1B6B743A28B627C1E779AF /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */,
+				0402BF70BA0A2F0FF76708453061E678 /* DGActivityIndicatorBallRotateAnimation.h in Headers */,
+				962ACA5D6BBC942E293341E80006E2DD /* DGActivityIndicatorBallScaleAnimation.h in Headers */,
+				5FD4AF079B3A3128E245802963B38511 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */,
+				4E93597DCD975C6BDCDE88E557EB3646 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */,
+				2FFC71AC9333E3834E9C9AFAEB8BFA2E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */,
+				AC8C9985FE2D70EBC0FC362BF65E01FC /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */,
+				A8BF668A692EB10C3F69F1A84E624E52 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */,
+				1BA47182C38A742BDB7240D619C0993D /* DGActivityIndicatorBallZigZagAnimation.h in Headers */,
+				BA2CB79755026CD557C60B55166600B9 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */,
+				CA859AED54CE35671B1A0202FA87297A /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */,
+				93ECEE2E728FA09FF7E7BCFB3CFDE649 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */,
+				AC24CC437FA669E5F31E0C9723AD8415 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */,
+				82BE2A242C850203ECDD4ECBC98B313C /* DGActivityIndicatorLineScaleAnimation.h in Headers */,
+				4CE0101DCBDBF84D5ED48EAAE244EAAD /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */,
+				D9239B8A66749417934B41E2FD754C36 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */,
+				CACD12F55B17F9667D0656C99FEEFA21 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */,
+				17AC11C4B18E2B624AA2AD0936741355 /* DGActivityIndicatorNineDotsAnimation.h in Headers */,
+				58BE2232589C5463FBE7FA3E4A2A1ECC /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */,
+				78942FDAAE696DD53C00BC0489FEB760 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */,
+				0C9FC533C9F82D8E45F2F727BBB8B507 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */,
+				871719FCEC37AEF97B13647BCEF4BEE1 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */,
+				A31D59E669050FAFF95964EBE8A25C06 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */,
+				F14DA3D819B00D565C2201277675C9A2 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */,
+				657AA52B863E291D0AE10B89EDC4CA4C /* DGActivityIndicatorTripleRingsAnimation.h in Headers */,
+				BC99A91AD479349B558EA916A67195C7 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */,
+				DB131BED912426470732DA1FF365CF83 /* DGActivityIndicatorView.h in Headers */,
+				438639DA7344CA5281D780F431AFF16D /* DGActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67463C46DF1174FF15DB6BE77731B44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7412A0EA435767AA1811EDA0308A12A7 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C46488C467B52BDDC387778AD1816E /* Build configuration list for PBXNativeTarget "ReachabilitySwift-ReachabilitySwift" */;
+			buildPhases = (
+				1F28CB450E5A297EE9F1DC7A428C0DEE /* Sources */,
+				BC4DF455F8A7D134891EDBC158E8891E /* Frameworks */,
+				603E14773119608FADAB97B34DD5306A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReachabilitySwift-ReachabilitySwift";
+			productName = ReachabilitySwift;
+			productReference = 842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27D0786C32B4B5D293FB7066FBFEC4C /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				C67463C46DF1174FF15DB6BE77731B44 /* Headers */,
+				AE2D8985B5AAB6DA320607FC7D7FFC8F /* Sources */,
+				90E92B2978ACD4C2A84AE756934458EA /* Frameworks */,
+				BFF8E0B714EF8994A5009CB9F10CAF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30E512891F427C2B47A142C9BB42579 /* PBXTargetDependency */,
+			);
+			name = ReachabilitySwift;
+			productName = Reachability;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E2B703C859503C8680209699A07329 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorView" */;
+			buildPhases = (
+				B5F1032F818132B00A732C52C6C23061 /* Headers */,
+				9368DDEBED86A58E4897AB67F8D81CC4 /* Sources */,
+				0EE21162F657EDDF31AF254FFBE8CC7D /* Frameworks */,
+				FC1E1A43FF332A8438D82170371FE7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGActivityIndicatorView;
+			productName = DGActivityIndicatorView;
+			productReference = BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E60652C84BC85713D02034D75F6B52C /* Pods-VXH-CAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCCFEB1F9AE55445EEFC91C9D7BF75C /* Build configuration list for PBXNativeTarget "Pods-VXH-CAM" */;
+			buildPhases = (
+				162FD366C33BCC6B8329CFAB14F35F9F /* Headers */,
+				3FAC351CB472EEDABA5F63143836F72C /* Sources */,
+				7B719F093BD3349B4CFBB740A6D4F2C4 /* Frameworks */,
+				BCE355D5D284F071D157486F35221294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A055753102FC7D7CC59B48CEF1C7B3A9 /* PBXTargetDependency */,
+				1F17CB235D9E6870FB637A877DF7FAB3 /* PBXTargetDependency */,
+				52B55B7882B64B8A4CBF91C6FA38FBF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-VXH-CAM";
+			productName = Pods_VXH_CAM;
+			productReference = 9ACE283FED7B823480B537681DB27BB4 /* Pods-VXH-CAM */;
+			productType = "com.apple.product-type.framework";
+		};
+		99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7BB6BB0A59EE15AB39BAD37EDDDF69 /* Build configuration list for PBXNativeTarget "CryptoSwift" */;
+			buildPhases = (
+				002F95A711D204D640C5E5097E63BC34 /* Headers */,
+				D15581AF020C57113ACAFE2759C10E91 /* Sources */,
+				9B88ACE6CDDCEFFD374E0FD6B82F885F /* Frameworks */,
+				99516D2BCEC0AC27B4CD841494588D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwift;
+			productName = CryptoSwift;
+			productReference = F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6574888B55AE39A97DE362A7189FEDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */,
+				197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */,
+				8E60652C84BC85713D02034D75F6B52C /* Pods-VXH-CAM */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+				0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		603E14773119608FADAB97B34DD5306A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA1472BD922969E2E69A67310FF4B2D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99516D2BCEC0AC27B4CD841494588D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE355D5D284F071D157486F35221294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF8E0B714EF8994A5009CB9F10CAF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6440F9C4AE8A246BBF3E10F9DD66DD0 /* ReachabilitySwift-ReachabilitySwift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1E1A43FF332A8438D82170371FE7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F28CB450E5A297EE9F1DC7A428C0DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAC351CB472EEDABA5F63143836F72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFADD84855CB9932C0201A0C8A7CB27 /* Pods-VXH-CAM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9368DDEBED86A58E4897AB67F8D81CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C877661AC1F20CE497B66D1D898924 /* DGActivityIndicatorAnimation.m in Sources */,
+				DAA8CD05104C4F3724955625DA3534AD /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
+				9B780F05ED676106AF56FDB26EF101DC /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				420DC3450BB2986FB26DF8314F4BD5CB /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
+				C8474E4A125DA5044994B5FC6F858F87 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				D27558F1C5BABF690D29BD07AC2D894A /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				43DF3D55298E7BF5AA3019E2FAC4CB4A /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				E6CA9A4C1F8B8127A39C2DD53D70FA69 /* DGActivityIndicatorBallPulseAnimation.m in Sources */,
+				4668131BF645E9A3ADD276772934A6B1 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				5F6717AD253575448A5327E313843BF9 /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
+				7F27C851A4AAB8451EE4E0BC68561A74 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
+				8097CC04E364423C5E408372D1009B4B /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				7C116F62A94C9B64AD5ED39F5A0E6CE8 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				351ADF89D2883C87D62E344A12DC8E1A /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
+				DC949216401EE388DF8BF5C75D027591 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
+				579F111BD49D8DA9314E634FF33CD260 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				719C95F442B007124C2D454868FE1FED /* DGActivityIndicatorBallZigZagAnimation.m in Sources */,
+				8A7F80041B3C2E9B1E07339997140D8A /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				B23C7BC50E6F695D42E2B0F48C910A03 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
+				223439CA5C844FDE826B04540265A98A /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				05CC6B7519CB7EAD9E9C377B5EE035C6 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				4883B3C8CA095D78D6D20BA700331326 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
+				9551F056CD5286C9BC44EB8F97CC4459 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				0AA1EE703DB7E681EE999EEC3C51E3C1 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				B02E65467861DC3FED4FBAD24C9A0DC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				E9CB607DD7DE6F9099F254B240029A43 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
+				3A34CA4D2D9A26C1CD97D00B73024E32 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
+				EC38B9171A946AB073AE14EA880C35AA /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				B4D8B52F72B599EBB187BC51AE9AE8A3 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				57B930B3305D6EE09C1A5F67F85ABACD /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
+				AEEC32E3CE7B1A3936ED9193B9E881D0 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				F3CD28EDDC7FA18F362C15FBE84CEE5B /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
+				3359A8ECA009F3C30EBA264BF30CB886 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
+				2E99D4B65EC3A42A50A5185B20B4E114 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
+				4B2B5838550071AC9FDC20F1C4F7674C /* DGActivityIndicatorView.m in Sources */,
+				EB5ECBA300640C5F3A26A14EF517C17A /* DGActivityIndicatorView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2D8985B5AAB6DA320607FC7D7FFC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA45FF667F74EF7093D5E54D2639F8B8 /* Reachability.swift in Sources */,
+				FB1FBAAE796073299B98C81A07B1FEAB /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15581AF020C57113ACAFE2759C10E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4563AC32CBBBB8F00A325F5972DDD813 /* Addition.swift in Sources */,
+				E0215181EE1C30E76B533D013B36B059 /* AEAD.swift in Sources */,
+				F2A71F8A9C47B8F0F42A6485FF84580B /* AEADChaCha20Poly1305.swift in Sources */,
+				9F0AB86083F313398966D8EA0E59A58B /* AEADXChaCha20Poly1305.swift in Sources */,
+				57A386CD0A6177239ECED6FE18762C02 /* AES.swift in Sources */,
+				823C189129B6093DAD0F230C22911629 /* AES+Foundation.swift in Sources */,
+				9E2363D68EF1AD3A2B5527F48F515AE2 /* AES.Cryptors.swift in Sources */,
+				D6CA15630B34E3F64924EB7900D7DC79 /* Array+Extension.swift in Sources */,
+				BC9C7714723FE6EA2E5B69F6D04A53E8 /* Array+Foundation.swift in Sources */,
+				22B6C73D997EE48D48ED2E8D401D08CA /* ASN1.swift in Sources */,
+				8A9B20D7A812D2BCAE359D65867B793D /* ASN1Decoder.swift in Sources */,
+				97C799625107ECCD5519901757F2305D /* ASN1Encoder.swift in Sources */,
+				79F342DA4C3ABD2FA492A8E8C68DA6A6 /* ASN1Scanner.swift in Sources */,
+				2316F7ADCAD7F99AF2E8F965D9B48112 /* Authenticator.swift in Sources */,
+				563579356C820DB88BB163B7A9E033B7 /* BatchedCollection.swift in Sources */,
+				8C71F50F54CFE8E7280229DE33529112 /* BigInt.swift in Sources */,
+				56748317E57B19600134D4E03F4ED003 /* BigUInt.swift in Sources */,
+				BC2B43633E441EF5BD764F699BD8CF1E /* Bit.swift in Sources */,
+				E158EBB0FADA4968A0A70AC9450D20D4 /* Bitwise Ops.swift in Sources */,
+				47A8FE9A5CB52467D3856F85CD32BA2C /* BlockCipher.swift in Sources */,
+				2CA444BE2243169E3E461333620BF9A5 /* BlockDecryptor.swift in Sources */,
+				EC6E5EE1B82F30403F93E48694ADAA44 /* BlockEncryptor.swift in Sources */,
+				5ED5A4B1C336D008E591A4AFF88EC9E0 /* BlockMode.swift in Sources */,
+				21F85E1941E39E65DE31FB2AD93FEFC8 /* BlockModeOptions.swift in Sources */,
+				3078AD695279E30AAE8E94CD3FC921AB /* Blowfish.swift in Sources */,
+				9550FC6D8312A414C4775B7AECC52722 /* Blowfish+Foundation.swift in Sources */,
+				6B9D88645C3FAC424A589A323EECC5BD /* CBC.swift in Sources */,
+				8C94EA7AAB8BE0F8C4D3641A20F7F81D /* CBCMAC.swift in Sources */,
+				783A1CB677AAE2F4F618B4E6BF186D11 /* CCM.swift in Sources */,
+				3B75E7F419EB60BFC08ACA064B29665B /* CFB.swift in Sources */,
+				3D2294BDA65FCC1384DD1F595FE5809D /* ChaCha20.swift in Sources */,
+				9F39312E9BCDE93584A058B4B44E8B1A /* ChaCha20+Foundation.swift in Sources */,
+				E49EF5E679D2C6C607190029D02A9CC5 /* Checksum.swift in Sources */,
+				127C7419A941BDE6E8F96B05DA087B10 /* Cipher.swift in Sources */,
+				62E4088BCB82C47E27135C28E1F9EDE3 /* CipherModeWorker.swift in Sources */,
+				927F84BF8CF45F9F1A126769FCE8A322 /* CMAC.swift in Sources */,
+				D2050D709F2210694EDA57F593A1ADFD /* Codable.swift in Sources */,
+				A39BDBC0A26CEAEAAC522491E31D155B /* Collection+Extension.swift in Sources */,
+				357B3CCD5BD7C6F64F3426D06E0F58F8 /* CompactMap.swift in Sources */,
+				C812806D8D9B75FC20775026AD645402 /* Comparable.swift in Sources */,
+				A4F7F39C7CAF8D496AD5440F29AC3A26 /* Cryptor.swift in Sources */,
+				EF1CD83CFDF4B0433BFA10279AA232CF /* Cryptors.swift in Sources */,
+				0CBCE606D2B0A7AFDA99211D66BF9E06 /* CryptoSwift-dummy.m in Sources */,
+				E381978224096EBB7F2A6E3F6BF6EEB9 /* CS.swift in Sources */,
+				4931B72AE0DEA03D974E94246D083C56 /* CTR.swift in Sources */,
+				013D71E269AD4C646A8F8168A4A8100D /* Data Conversion.swift in Sources */,
+				8D78A5A38855E51B6522085783196B4F /* Data+Extension.swift in Sources */,
+				031CF6A420C505659AE6A551DB08899A /* DER.swift in Sources */,
+				B55670286D8F3F7555B1F7C404846107 /* Digest.swift in Sources */,
+				50F2582568898704B929B5406821EB7D /* DigestType.swift in Sources */,
+				89D1160E2D1D13D0C23811AFD85A7649 /* Division.swift in Sources */,
+				552917EF5EED34DDF54DED797945151A /* ECB.swift in Sources */,
+				2BFAB5FFCFCCC7F848E168DF44655B30 /* Exponentiation.swift in Sources */,
+				D10D949773CFA5C6CF18249E4DBDF2E5 /* Floating Point Conversion.swift in Sources */,
+				98DD3D34EE5E9B30F765FD21F8315F63 /* GCD.swift in Sources */,
+				0A89F3C6169BB4CC1ED4D855C73C0E55 /* GCM.swift in Sources */,
+				0F18C935794EB4F08B9397FBD00D85B7 /* Generics.swift in Sources */,
+				B9A267013059C62B0ED8D1C482D2D56E /* Hashable.swift in Sources */,
+				A984CADB78176B9C28B05F3DFB2732FF /* HKDF.swift in Sources */,
+				0AE3B5F3607C92BD8580682611F81184 /* HMAC.swift in Sources */,
+				DC160C3E360EB9853B288E4B034C0B41 /* HMAC+Foundation.swift in Sources */,
+				5E38CC49F1D6986A28295B6D6696D685 /* Int+Extension.swift in Sources */,
+				02C6AD8184FAE4D8C125505245567903 /* Integer Conversion.swift in Sources */,
+				01F1F6243026C23F6FEF7A0B8B502F98 /* ISO10126Padding.swift in Sources */,
+				C96588F567A65EC852BD1619CC32A255 /* ISO78164Padding.swift in Sources */,
+				5B4C596A725418E620B72C6C337992EA /* MD5.swift in Sources */,
+				EFA606B4A112FCC12C450CB0E805A29A /* Multiplication.swift in Sources */,
+				88A4F192B1AF653E08636B000539B9BB /* NoPadding.swift in Sources */,
+				AF93CCB3F715B0D8BC33200095E15A93 /* OCB.swift in Sources */,
+				155EBE4DCD46E9079E1029B705A88961 /* OFB.swift in Sources */,
+				F053B15771FE697EBCFDF2DB2D2E4F91 /* Operators.swift in Sources */,
+				DA611E11361AFA5E9E36F6F5D285AD48 /* Padding.swift in Sources */,
+				F8B1D60989FADC634E8C5DA724AE544E /* PBKDF1.swift in Sources */,
+				CAF1075C8D6AEA3BE6649A9199E9EB73 /* PBKDF2.swift in Sources */,
+				8C79DDECCDDC7F02F911BAE72E10AE59 /* PCBC.swift in Sources */,
+				07572AF1CC47625A93A6D9DA810E7E89 /* PKCS1v15.swift in Sources */,
+				B7722A81B52D2FF71A31FA535C9A9C72 /* PKCS5.swift in Sources */,
+				A0B008D041B67526EA10E48460038A4D /* PKCS7.swift in Sources */,
+				D368E13DCC61A94DBF0D4C40C029D789 /* PKCS7Padding.swift in Sources */,
+				77635EFA197C0C1160C459C181F84EDA /* Poly1305.swift in Sources */,
+				6D975A01F1F5683F9D736EA61C75EF9B /* Prime Test.swift in Sources */,
+				F9F64988E5483402A6B9A6D650D1420A /* Rabbit.swift in Sources */,
+				0DBFC980936B2EF810DF12B711B1C0EC /* Rabbit+Foundation.swift in Sources */,
+				3EC96C4E5D4A931B41023E49573E03D7 /* Random.swift in Sources */,
+				520B0426743972060FDF743F2CCA7E92 /* RSA.swift in Sources */,
+				B0CA3E5D4F2DB2D6A73993F25D1003CA /* RSA+Cipher.swift in Sources */,
+				99731D291CE87315D7C6A531AFD0B3D7 /* RSA+Signature.swift in Sources */,
+				A3566168CD74321FD4D771CCC3B85466 /* Scrypt.swift in Sources */,
+				7389687A3178AE6163AC83257BC539E8 /* SecureBytes.swift in Sources */,
+				643CF4761EF1E7A40EED51D16C3CE738 /* SHA1.swift in Sources */,
+				F125F7F62E311EEEF149C7996EB377A3 /* SHA2.swift in Sources */,
+				4AEF4F37390751212A195284BF92F4CE /* SHA3.swift in Sources */,
+				5936DAE658ADBE20DDE0186CB59D92FA /* Shifts.swift in Sources */,
+				2446BEC6A0B232D322605B2926EAABE4 /* Signature.swift in Sources */,
+				E5948039524C8043DC3875F2C2A893B5 /* Square Root.swift in Sources */,
+				18A1E4AD7DF3F03923630512919F6565 /* StreamDecryptor.swift in Sources */,
+				25DF005153C6EA3B18CE80C3AA24F7D5 /* StreamEncryptor.swift in Sources */,
+				8DE499372DC8C828EE7106C6F776904D /* Strideable.swift in Sources */,
+				D5D8262B9ED662F44E0111EC7A57EF31 /* String Conversion.swift in Sources */,
+				EAB790E9F3F420C6B1390B0EB5967477 /* String+Extension.swift in Sources */,
+				A57C68291FDAF2CA27EA957D22F371D6 /* String+FoundationExtension.swift in Sources */,
+				1B7B9F6608A9195ED025E5F2AB6F9131 /* Subtraction.swift in Sources */,
+				F0923DE8BC44953A4DC4D5A50E5FAEAF /* UInt128.swift in Sources */,
+				6817D6A85B3129CB25D253B17E6C5B49 /* UInt16+Extension.swift in Sources */,
+				A420A924F25DA38A9A8206BD4345B088 /* UInt32+Extension.swift in Sources */,
+				4F66AABA6EE3E4FE5F232C3E9C5506E0 /* UInt64+Extension.swift in Sources */,
+				CCDBF1276438EC7464F10147647B3539 /* UInt8+Extension.swift in Sources */,
+				AC11C04DE2CBA58C11677140F9930068 /* Updatable.swift in Sources */,
+				27D39B021D3F4EFEECFC913519CE9839 /* Utils.swift in Sources */,
+				D4ACECABEB5EECB11B8844A59D45CA0E /* Utils+Foundation.swift in Sources */,
+				7E4F7D09B7F664BCFE4B7E6C2C5188BE /* Words and Bits.swift in Sources */,
+				01E98886C17822A0CBA41BB04C921B19 /* XChaCha20.swift in Sources */,
+				166118E48E01931A3330E9C6719E1B12 /* XChaCha20+Foundation.swift in Sources */,
+				D1993E9C2F219AD5DE8CF081CCB90748 /* ZeroPadding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F17CB235D9E6870FB637A877DF7FAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGActivityIndicatorView;
+			target = 197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */;
+			targetProxy = F53B1670EFCBEB232CD7A815251EF5AE /* PBXContainerItemProxy */;
+		};
+		52B55B7882B64B8A4CBF91C6FA38FBF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 97F91C71A75D9B919E9BF2C1412B8C03 /* PBXContainerItemProxy */;
+		};
+		A055753102FC7D7CC59B48CEF1C7B3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = 12C15D8B1B7901E7903B7836823137C9 /* PBXContainerItemProxy */;
+		};
+		E30E512891F427C2B47A142C9BB42579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReachabilitySwift-ReachabilitySwift";
+			target = 0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */;
+			targetProxy = 706860AB374385FA84E9233E313A4E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		224E897DEA18D62FE3A0A49C6CCA5474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E808E5DD0B6761DBEAFBAC17D5FCFD /* Pods-VXH-CAM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VXH-CAM/Pods-VXH-CAM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VXH-CAM/Pods-VXH-CAM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		408ABFF9AB9855D1CB6030B784FBAEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C652DADAD45730C6A28322B313766B6 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74D0EC75A57E646E5D66448F2AFD311C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13AE999877BC4991EC8445FD7B0B983 /* CryptoSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76C9295F5D4EDDD3BF3D3774635E74B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88376C516BDACC25CCE3DC4DB9A6A8E9 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ReachabilitySwift";
+				IBSC_MODULE = Reachability;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7CCFBA8ADD3553AFC4CED95D9A091266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C652DADAD45730C6A28322B313766B6 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ReachabilitySwift";
+				IBSC_MODULE = Reachability;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8617492160B7520C38101C22C3E44635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06875A31764C1D1C0E05254576D2E4BB /* DGActivityIndicatorView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = DGActivityIndicatorView;
+				PRODUCT_NAME = DGActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		911665891A1B142E666BC71D2E2E2EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823AF59D80249969E581EE4A4E3A769 /* CryptoSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD2764DC9201332402322508AC6ECFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9886C30FD837EA6F558C2BE05D6521FB /* DGActivityIndicatorView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = DGActivityIndicatorView;
+				PRODUCT_NAME = DGActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB51898460FFA4DC10AE320BEDC2B552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88376C516BDACC25CCE3DC4DB9A6A8E9 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0CE10F1B9B6650C40AB850B59E00DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3D2E69A9DFD74E404BCBF28F6633B8 /* Pods-VXH-CAM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VXH-CAM/Pods-VXH-CAM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VXH-CAM/Pods-VXH-CAM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C46488C467B52BDDC387778AD1816E /* Build configuration list for PBXNativeTarget "ReachabilitySwift-ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9295F5D4EDDD3BF3D3774635E74B2 /* Debug */,
+				7CCFBA8ADD3553AFC4CED95D9A091266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7BB6BB0A59EE15AB39BAD37EDDDF69 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D0EC75A57E646E5D66448F2AFD311C /* Debug */,
+				911665891A1B142E666BC71D2E2E2EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCCFEB1F9AE55445EEFC91C9D7BF75C /* Build configuration list for PBXNativeTarget "Pods-VXH-CAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224E897DEA18D62FE3A0A49C6CCA5474 /* Debug */,
+				E0CE10F1B9B6650C40AB850B59E00DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E2B703C859503C8680209699A07329 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2764DC9201332402322508AC6ECFC8 /* Debug */,
+				8617492160B7520C38101C22C3E44635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27D0786C32B4B5D293FB7066FBFEC4C /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB51898460FFA4DC10AE320BEDC2B552 /* Debug */,
+				408ABFF9AB9855D1CB6030B784FBAEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

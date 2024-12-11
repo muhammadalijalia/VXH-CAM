@@ -1,0 +1,24 @@
+PODS:
+  - CryptoSwift (1.8.1)
+  - DGActivityIndicatorView (2.1.1)
+  - ReachabilitySwift (5.2.1)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - DGActivityIndicatorView
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - DGActivityIndicatorView
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  CryptoSwift: b9c701d6f5011df23794dbf7f2e480a77835d83d
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  ReachabilitySwift: 5ae15e16814b5f9ef568963fb2c87aeb49158c66
+
+PODFILE CHECKSUM: 192e189edd684cba84d26a639ee9aab925cd9443
+
+COCOAPODS: 1.15.2
